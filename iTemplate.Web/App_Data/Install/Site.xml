@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	<defaults>
+		<Name>iTemplate</Name>
+    <LogoUrl></LogoUrl>
+    <Address>
+      <Line1>Address Line 1</Line1>
+      <Line2>Address Line 2</Line2>
+      <Line3>Address Line 3</Line3>
+      <Line4>Address Line 4</Line4>
+      <Line5>Address Line 5</Line5>
+      <PostalCode>Address Postal Code</PostalCode>
+      <CountryCode>GB</CountryCode>
+      <Telephone>1234-456789</Telephone>
+      <Email>contact@iTemplate.com</Email>
+    </Address>
+    <Disclaimer>© Copyright 2016, All Rights Reserved</Disclaimer>
+    <RegistrationMethod>0</RegistrationMethod>
+    <ThemeId>13</ThemeId>
+    <AdminEmail>admin@iTemplate.com</AdminEmail>
+    <AdminPassword>M00ddm@@</AdminPassword>
+    <AdminRole>Administrator</AdminRole>
+	</defaults>
+</settings>

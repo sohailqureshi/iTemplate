@@ -1,0 +1,44 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.ContactType>
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Contact Types")
+}
+
+<p>@PageButton.Create()</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.Name)
+      </th>      
+      <th>
+        @Html.DisplayNameFor(model => model.Description)
+      </th>      
+      <th class="text-center">
+        @Html.DisplayNameFor(model => model.SortOrder)
+      </th>
+      <th class="text-center">
+        @Html.DisplayNameFor(model => model.IsPublished)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model)
+  {
+    <tr>
+      <td>
+        @Html.ActionLink(item.Name, "Edit", new { id = item.Id })
+      </td>   
+      <td>
+        @Html.DisplayFor(modelItem => item.Description)
+      </td>     
+      <td class="text-center">
+        @Html.DisplayFor(modelItem => item.SortOrder)
+      </td>
+      <td class="text-center">
+        @Html.CheckBoxFor(modelItem => item.IsPublished)
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

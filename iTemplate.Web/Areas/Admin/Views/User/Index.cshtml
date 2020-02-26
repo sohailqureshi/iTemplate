@@ -1,0 +1,65 @@
+﻿@model IEnumerable<iTemplate.Web.Models.ApplicationUser>
+@{
+  Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+  <h2>Users <small></small></h2>
+}
+<p>@PageButton.Create()</p>
+<table>
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.FullName)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Email)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.PhoneNumber)
+      </th>
+      <th class="text-center">
+        @Html.DisplayNameFor(model => model.PhoneNumberConfirmed)
+      </th>
+      <th class="text-center">
+        @Html.DisplayNameFor(model => model.EmailConfirmed)
+      </th>
+      <th class="text-center">
+        @Html.DisplayNameFor(model => model.LockoutEnabled)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model)
+  {
+    <tr>
+      <td>
+        @Html.ActionLink(item.FullName, "Edit", new { id = item.Id })
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Email)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.PhoneNumber)
+      </td>
+      <td class="text-center">
+        @Html.DisplayFor(modelItem => item.PhoneNumberConfirmed)
+      </td>
+      <td class="text-center">
+        @Html.DisplayFor(modelItem => item.EmailConfirmed)
+      </td>
+      <td class="text-center">
+        @Html.DisplayFor(modelItem => item.LockoutEnabled)
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>
+<script>
+  $(function () {
+
+    $("#btnCreate").change(function (event) {
+      var selectedCategoryId = $('#btnCategory option:selected').val();
+      window.location.search = "?selectedCategoryId=" + selectedCategoryId;
+    });
+
+  });
+</script>

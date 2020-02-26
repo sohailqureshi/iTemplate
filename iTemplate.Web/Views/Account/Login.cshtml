@@ -1,0 +1,34 @@
+﻿@model iTemplate.Web.ViewModels.LoginViewModel
+@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+  <div class="row" style="margin-top:5%;">
+    <div class="col-md-6 col-md-offset-3">
+      @Html.AntiForgeryToken()
+      @Html.ValidationSummary(true)
+
+      <div class="panel panel-default">
+
+        <div class="panel-heading">
+          <div class="panel-title">Login</div>
+        </div>
+
+        <div class="panel-body">
+          <div class="col-md-8 col-md-offset-2">
+            @PageEditor.TextBoxFor(Html, model => model.Email, "envelope")
+            @PageEditor.PasswordFor(Html, model => model.Password)
+            @PageEditor.CheckBoxFor(Html, model => model.RememberMe)
+          </div>
+        </div>
+
+        <div class="panel-footer">
+          @PageButton.Submit("Login", "fa fa-fw fa-sign-in")
+          @PageButton.NavigateUrl("Register", "PricingPlan")
+          @PageButton.NavigateUrl("Forgotten password", "ForgotPassword")
+        </div>
+      </div>
+    </div>
+  </div>
+}
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}

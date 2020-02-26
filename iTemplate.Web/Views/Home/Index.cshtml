@@ -1,0 +1,133 @@
+﻿@using iTemplate.Web.Models.Data
+@{
+  ViewBag.Title = "Home Page";
+  Layout = "~/Views/Shared/_LayoutFullWidth.cshtml";
+}
+<div class="row" style="background-image: url('../../Images/events-banner.jpg'); height:420px;">
+  <div class="span12 center-block" style="color:white; text-align: center; margin-top:10%;">
+    <h1>Main Heading!</h1>
+    <h2>Sub Heading</h2>
+  </div>
+</div>
+
+<form role="form" action="/home/search" method="post">
+  <div class="row" style="background-color:black; padding:10px 10px 0 10px;">
+
+    <div class="col-md-4">
+      <div class="form-group">
+        <input type="text" class="form-control" id="location" name="location" placeholder="Where ?">
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-fw fa-calendar"></i></span>
+          <input type="text" class="form-control" data-date-format="dd-mm-yyyy" id="checkin" name="checkin" placeholder="Check in">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-fw fa-calendar"></i></span>
+          <input type="text" class="form-control" data-date-format="dd-mm-yyyy" id="checkout" name="checkout" placeholder="Check out">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="form-group">
+        <div class="input-group">
+          <span class='input-group-addon'><i class='fa fa-fw fa-group'></i></span>
+          <label class="sr-only" for="guest">Guest</label>
+          <select id="guest" name="guest" class="form-control">
+            <option value="1">01 Guest</option>
+            <option value="2">02 Guests</option>
+            <option value="3">03 Guests</option>
+            <option value="4">04 Guests</option>
+            <option value="5">05 Guests</option>
+            <option value="6">06 Guests</option>
+            <option value="7">07 Guests</option>
+            <option value="8">08 Guests</option>
+            <option value="9">09 Guests</option>
+            <option value="10">10 Guests</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="input-group">
+        <button type="submit" class="btn btn-default btn-primary">
+          <i class="fa fa-fw fa-search"></i>
+          Search
+        </button>
+      </div>
+    </div>
+
+  </div>
+</form>
+
+<hr />
+<div class="row">
+  <div class="col-md-12">
+    <div class="jumbotron">
+      <div style="padding:50px;">
+        <h1>Server Time: <span id="newTime"></span></h1>
+        <p class="lead">If the above time is running then real-time push notifications are working!!!</p>
+        <p><input type="button" id="btnClick" class="btn btn-primary btn-large" value="Check Server Response &raquo;" /></p>
+        <p><span id="message"></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr />
+@*<div class="row">
+  <div class="col-md-3">
+
+    @GetListItems("Property", "Property.Type","home")
+    @GetListItems("Bedrooms", "Room.BedRooms", "cutlery")
+    @GetListItems("Bathrooms", "Room.BathRooms", "bug")
+
+  </div>
+</div>*@
+
+@*@helper GetListItems(string id, string key, string icon)
+{
+  <div class="form-group">
+    <label class="text-info" for="@id">@id</label>
+    <div class="input-group">
+      <span class='input-group-addon'><i class='fa fa-fw fa-@icon'></i></span>
+      @Html.DropDownList(@id, StaticCategoryList.GetList(@key), new { @class = "form-control" })
+    </div>
+  </div>
+}*@
+
+<script src="~/Scripts/custom/timer.js"></script>
+<script>
+  $(function () {
+    var nowTemp = new Date();
+    var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+
+    var checkin = $('#checkin')
+      .datepicker({ onRender: function (date) { return date.valueOf() < now.valueOf() ? 'disabled' : ''; } })
+      .on('changeDate', function (ev) {
+        if (ev.date.valueOf() >= checkout.date.valueOf()) {
+          var newDate = new Date(ev.date);
+          newDate.setDate(newDate.getDate() + 1);
+          checkout.setValue(newDate);
+        };
+        checkin.hide();
+        $('#checkout')[0].focus();
+      }).data('datepicker');
+
+    var checkout = $('#checkout')
+      .datepicker({ onRender: function (date) { return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : ''; } })
+      .on('changeDate', function (ev) {
+        checkout.hide();
+      }).data('datepicker');
+  })
+</script>

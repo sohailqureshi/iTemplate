@@ -1,0 +1,20 @@
+﻿@using iTemplate.Web.Data.Site
+@using iTemplate.Web.Models.Data
+@{
+ @PageTitle.Heading("Contact Us");
+}
+<div>
+  <address>
+    <i class="glyphicon glyphicon-home"></i> @Settings.Address.Line1<br />
+    <i class="glyphicon glyphicon-road"></i> @Settings.Address.Line2<br />
+    <i class="glyphicon glyphicon-tree-conifer"></i> @Settings.Address.Line3<br />
+    <i class="glyphicon glyphicon-tower"></i> @Settings.Address.Line4<br />
+    <i class="glyphicon glyphicon-plane"></i> @Settings.Address.Line5<br />
+    <i class="glyphicon glyphicon-dashboard"></i> @Settings.Address.PostalCode<br />
+    <i class="glyphicon glyphicon-globe"></i> @Country.Get(Settings.Address.CountryId).Name<br />
+
+    <br />
+    <i class="glyphicon glyphicon-phone-alt"></i><strong> Main:</strong> @Settings.Address.Telephone<br />
+    <i class="glyphicon glyphicon-envelope"></i><strong> Support:</strong><a href="mailto:@Settings.Address.Email">@Settings.Address.Email</a><br />
+  </address>
+</div>

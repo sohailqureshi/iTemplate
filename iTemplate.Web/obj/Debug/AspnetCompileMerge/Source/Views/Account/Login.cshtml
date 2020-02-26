@@ -1,0 +1,47 @@
+﻿@model IdentityManager.Web.Models.LoginViewModel
+@{
+	@PageTitle.Heading("Log In")
+}
+<div class="row">
+  <div class="col-md-8">
+      <section id="loginForm">
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" })) {
+          @Html.AntiForgeryToken()
+          <h4>Use a local account to log in</h4>
+          <hr />
+          @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+          <div class="col-md-6 col-md-offset-2">
+           @PageEditor.TextboxFor(Html, model => model.Email, "envelope")
+          </div>
+              
+          <div class="col-md-6 col-md-offset-2">
+            @PageEditor.PasswordFor(Html, model => model.Password)
+          </div>
+
+					<div class="col-md-offset-2 col-md-8">
+						<div class="checkbox">
+							<label>
+								@Html.CheckBoxFor(m => m.RememberMe)
+								@Html.LabelFor(m => m.RememberMe, new { @class = "text-info" })
+							</label>
+						</div>
+					</div>
+
+					<div class="col-md-offset-2 col-md-8" style="margin-top:20px; margin-bottom:10px;">
+						<input type="submit" value="Log in" class="btn btn-primary" />
+						@Html.ActionLink("Register", "Register", null, new { @class = "btn btn-default" })
+						@Html.ActionLink("Forgotten password", "ForgotPassword", null, new { @class = "btn btn-default" })
+					</div>
+				}
+      </section>
+        </div>
+  <div class="col-md-4">
+      <section id="socialLoginForm">
+          @Html.Partial("_ExternalLoginsListPartial", new IdentityManager.Web.Models.ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+      </section>
+  </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,203 @@
+﻿@using System.Web.Mvc;
+@using System.Web.Mvc.Html;
+@using System.Linq.Expressions;
+@using System;
+@using System.Collections.Generic;
+@using System.Web.Mvc;
+@using System.Linq.Expressions;
+@using System.Web.Mvc.Html;
+@using System.Text;
+
+@functions
+{
+  public static HelperResult DisabledTexboxFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr, string icon = null)
+  {
+    //MvcHtmlString label = html.LabelFor(expr);
+    //return ShowLabel(
+    //  html.LabelFor(expr));
+    ModelMetadata mmd = ModelMetadata.FromLambdaExpression(expr, html.ViewData);
+    var defaultIcon = icon ?? getDefaultIcon(mmd.PropertyName);
+
+    return iTemplateHelperRenderControl(
+      html.LabelFor(expr),
+      html.TextBoxFor(expr, new { @class = "form-control", @disabled = "disabled", @required="false"}),
+      new MvcHtmlString(string.Empty),
+      defaultIcon,
+      string.Empty,
+      true);
+  }
+
+  public static HelperResult CalendarFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr)
+  {
+    ModelMetadata mmd = ModelMetadata.FromLambdaExpression(expr, html.ViewData);
+
+    return iTemplateHelperRenderControl(
+      html.LabelFor(expr),
+      html.TextBoxFor(expr, "{0:dd-MM-yyyy}", new { @class = "form-control" }),
+      html.ValidationMessageFor(expr),
+      "certificate",
+      "fa-calendar",
+      true);
+  }
+
+  public static HelperResult CheckBoxFor<TModel>(HtmlHelper<TModel> html, Expression<Func<TModel, bool>> expr)
+  {
+    //return CheckboxFor(html.LabelFor(expr), html.CheckBoxFor(expr new { @class = "form-control" }));
+    //sb.AppendFormat("<input type='hidden' id='{0}' name='{0}' value='{1}' />", mmd.PropertyName, !Convert.ToBoolean(mmd.Model));
+    //ModelMetadata mmd = ModelMetadata.FromLambdaExpression(expr, html.ViewData);
+    //var sb = new StringBuilder();
+    //sb.Append(InputExtensions.CheckBoxFor(html, expr));
+
+    return CheckboxFor(
+      html.LabelFor(expr),
+      InputExtensions.CheckBoxFor(html, expr));
+  }
+
+  public static HelperResult DropdownFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr, IEnumerable<System.Web.Mvc.SelectListItem> sl, string icon = null)
+  {
+    ModelMetadata mmd = ModelMetadata.FromLambdaExpression(expr, html.ViewData);
+
+    return iTemplateHelperRenderControl(
+      html.LabelFor(expr),
+      html.DropDownListFor(expr, sl, new { @class = "form-control" }),
+      html.ValidationMessageFor(expr),
+      icon,
+      string.Empty,
+      true);
+  }
+
+  public static HelperResult HiddenFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr)
+  {
+    return iTemplateHelperRenderControl(
+      new MvcHtmlString(string.Empty),
+      html.HiddenFor(expr),
+      new MvcHtmlString(string.Empty),
+      string.Empty,
+      string.Empty,
+      false);
+  }
+
+  public static HelperResult PasswordFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr)
+  {
+    ModelMetadata mmd = ModelMetadata.FromLambdaExpression(expr, html.ViewData);
+
+    return iTemplateHelperRenderControl(
+      html.LabelFor(expr),
+      html.PasswordFor(expr, new { @class = "form-control", placeholder = mmd.DisplayName ?? mmd.PropertyName }),
+      html.ValidationMessageFor(expr),
+      "eye-open",
+      string.Empty,
+      true);
+  }
+
+  //public static HelperResult TextBoxFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr, bool inline=false, bool showLabel=true)
+  //{
+  //  ModelMetadata mmd = ModelMetadata.FromLambdaExpression(expr, html.ViewData);
+  //  //if (mmd.IsRequired)
+  //  //{
+  //  //  var required = "required";
+  //  //  return Textbox(html.LabelFor(expr), html.TextBoxFor(expr, new { @class = "form-control", @required, placeholder = mmd.DisplayName ?? mmd.PropertyName }), html.ValidationMessageFor(expr), inline, showLabel);
+  //  //}
+
+  //  return iTemplateHelperRenderControl(
+  //    html.LabelFor(expr),
+  //    html.TextBoxFor(expr, new { @class = "form-control", placeholder = mmd.DisplayName ?? mmd.PropertyName }),
+  //    html.ValidationMessageFor(expr),
+  //    string.Empty,
+  //    string.Empty,
+  //    inline,
+  //    showLabel);
+  //}
+
+  public static HelperResult TextBoxFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr, string icon=null)
+  {
+    ModelMetadata mmd = ModelMetadata.FromLambdaExpression(expr, html.ViewData);
+    var defaultIcon = icon ?? getDefaultIcon(mmd.PropertyName);
+
+    return iTemplateHelperRenderControl(
+      html.LabelFor(expr),
+      html.TextBoxFor(expr, new { @class = "form-control", placeholder = mmd.DisplayName ?? mmd.PropertyName, @Title = mmd.DisplayName ?? mmd.PropertyName }),
+      html.ValidationMessageFor(expr),
+      defaultIcon,
+      string.Empty,
+      true);
+  }
+
+  private static string getDefaultIcon(string propertyName)
+  {
+    var defaultIcon = string.Empty;
+    switch (propertyName)
+    {
+      case "Description":
+        defaultIcon = "fa-exclamation";
+        break;
+      case "Email":
+        defaultIcon = "envelope";
+        break;
+      case "Name":
+        defaultIcon = "tag";
+        break;
+      case "Parent":
+        defaultIcon = "fa-external-link";
+        break;
+      case "SortOrder":
+        defaultIcon = "fa-sort-numeric-asc";
+        break;
+      default:
+        defaultIcon = string.Empty;
+        break;
+    }
+
+    return defaultIcon;
+  }
+}
+
+@helper ShowLabel(MvcHtmlString label)
+{
+  <div class="form-group">
+    <div class="input-group">
+      <span class="form-control text-muted disabled">@label</span>
+    </div>
+  </div>  
+}
+
+@helper CheckboxFor(MvcHtmlString label, MvcHtmlString checkbox)
+{
+  <div class="form-group" style="margin-bottom:5px;">
+    <div class='input-group'>
+      <div class="checkbox">
+        <label>
+          @checkbox
+          @label
+        </label>
+      </div>
+    </div>
+  </div>
+}
+
+@helper iTemplateHelperRenderControl(MvcHtmlString label, MvcHtmlString input, MvcHtmlString validationMessage = null, string lhsIcon = null, string rhsIcon = null, bool showLabel = true)
+{
+  <div class="form-group" style="margin-bottom:5px;">
+    @if (showLabel){ @label }
+    <div class='input-group'>
+      @iTemplateHelperInsertIcon(lhsIcon)
+      @input
+      @iTemplateHelperInsertIcon(rhsIcon)
+    </div>
+    @if (!string.IsNullOrEmpty(validationMessage.ToString())){@validationMessage}
+  </div>
+}
+@helper iTemplateHelperInsertIcon(string icon = null)
+{
+  if (!string.IsNullOrEmpty(icon))
+  {
+    if (icon.Contains("fa-"))
+    {
+      <span class='input-group-addon'><i class='fa fa-fw @icon'></i></span>
+    }
+    else
+    {
+      <span class='input-group-addon'><i class='glyphicon glyphicon-@icon'></i></span>
+    }
+  }
+}

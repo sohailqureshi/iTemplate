@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  
+	<defaults>
+		<Key>Default</Key>
+    <Url>~/Content/bootstrap.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Key>Amelia</Key>
+    <Url>~/Content/Themes/bootstrap.amelia.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Key>Cerulean</Key>
+		<Url>~/Content/Themes/bootstrap.cerulean.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Key>Cosmo</Key>
+		<Url>~/Content/Themes/bootstrap.cosmo.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Key>Cyborg</Key>
+		<Url>~/Content/Themes/bootstrap.cyborg.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+  <defaults>
+    <Key>Default</Key>
+    <Url>~/Content/Themes/bootstrap.default.min.css</Url>
+    <Description></Description>
+  </defaults>
+  
+	<defaults>
+		<Key>Darklyl</Key>
+		<Url>~/Content/Themes/bootstrap.darklyl.min.css</Url>
+		<Description></Description>
+	</defaults>
+  
+	<defaults>
+		<Key>Flatly</Key>
+		<Url>~/Content/Themes/bootstrap.flatly.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Key>Journal</Key>
+		<Url>~/Content/Themes/bootstrap.journal.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Key>Lumen</Key>
+		<Url>~/Content/Themes/bootstrap.lumen.min.css</Url>
+		<Description></Description>
+  
+	<defaults>
+		<Key>Readable</Key>
+		<Url>~/Content/Themes/bootstrap.readable.min.css</Url>
+		<Description></Description>
+	</defaults>
+  
+	<defaults>
+		<Key>Simplex</Key>
+		<Url>~/Content/Themes/bootstrap.simplex.min.css</Url>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Key>Slate</Key>
+		<Url>~/Content/Themes/bootstrap.slate.min.css</Url>
+		<Description></Description>
+	</defaults>
+ 
+	<defaults>
+		<Key>SpaceLab</Key>
+		<Url>~/Content/Themes/bootstrap.spacelab.min.css</Url>
+		<Description></Description>
+	</defaults>
+  
+	<defaults>
+		<Key>SuperHero</Key>
+		<Url>~/Content/Themes/bootstrap.superhero.min.css</Url>
+		<Description></Description>
+	</defaults>
+  
+	<defaults>
+		<Key>United</Key>
+		<Url>~/Content/Themes/bootstrap.united.min.css</Url>
+		<Description></Description>
+	</defaults>
+  
+	<defaults>
+		<Key>Yeti</Key>
+		<Url>~/Content/Themes/bootstrap.yeti.min.css</Url>
+		<Description></Description>
+	</defaults>
+	</defaults></settings>

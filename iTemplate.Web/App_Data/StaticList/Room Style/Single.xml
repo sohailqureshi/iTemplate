@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Single Room - Budget</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room - Deluxe</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room - Deluxe with Balcony</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room - Deluxe with Sea View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room - Economy </Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room -Large</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room - Disability Access</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room with Balcony</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room with Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room with Garden View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room with Park View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room with Shared Bathroom</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room with Pool View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room with Private External Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+    <defaults>
+    <Text>Single Room with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room - Superior</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room - Superior with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Single Room - Superior with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Single Room - Superior with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<IdentityManager.Web.Models.ApplicationUser>
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "Users";
+}
+
+<hgroup>
+  <page-title>@ViewBag.Title</page-title>
+  <page-subtitle>@ViewBag.Message</page-subtitle>
+</hgroup>
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class="btn btn-primary"})
+</p>
+<table class="table table-striped">
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.UserName)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.PhoneNumber)
+      </th>        
+      <th>
+        @Html.DisplayNameFor(model => model.PhoneNumberConfirmed)
+      </th> 
+      <th>
+        @Html.DisplayNameFor(model => model.Email)
+      </th>        
+      <th>
+        @Html.DisplayNameFor(model => model.EmailConfirmed)
+      </th> 
+      <th>
+        @Html.DisplayNameFor(model => model.LockoutEnabled)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.LockoutEndDateUtc)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.TwoFactorEnabled)
+      </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+          <td>
+            @Html.ActionLink(item.UserName, "Edit", new { id = item.Id })
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+          </td>          
+          <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumberConfirmed)
+          </td>          
+          <td>
+            @Html.DisplayFor(modelItem => item.Email)
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.EmailConfirmed)
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.LockoutEnabled)
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.LockoutEndDateUtc)
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.TwoFactorEnabled)
+          </td>
+        </tr>
+    }
+
+</table>

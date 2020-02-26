@@ -1,0 +1,38 @@
+﻿@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "File Import";
+}
+
+<hgroup>
+  <page-title>@ViewBag.Title</page-title>
+  <page-subtitle>@ViewBag.Message</page-subtitle>
+</hgroup>
+
+@using (Html.BeginForm("FileImport", "Site", FormMethod.Post))
+{
+  <div class="row">
+    <div class="col-md-6">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <label class='text-info'>File Name</label>
+        </div>
+
+        <div class="panel-body">
+          <select id="fileName" name="fileName" class="form-control">
+            <option value="CountryList.txt">Country List</option>
+          </select>
+        </div>
+
+        <div class="panel-footer">
+          <input type="submit" name="Submit" id="Submit" value="Import" class="btn btn-primary" />
+          <div class="pull-right">
+            <div class="serverTime"></div>
+            <div class="filesProcessed" style="color:red;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+}
+<script src="~/Scripts/signalR/fileImport.js"></script>

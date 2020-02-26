@@ -1,0 +1,75 @@
+﻿@model iTemplate.Web.Models.Country
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Country</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ContinentId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContinentId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Iso2Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Iso2Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Iso3Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Iso3Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsoNumeric)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsoNumeric)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrencyId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrencyId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LanguageCodes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LanguageCodes)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,55 @@
+﻿@using System.Web.Mvc;
+@using System.Web.Mvc.Html;
+@functions
+{
+  private static WebViewPage page {
+    get { return PageContext.Page as WebViewPage; }
+  }
+
+  private static System.Web.Mvc.HtmlHelper Html {
+    get { return page.Html; }
+  }
+}
+@helper Submit(string caption = "Save", string icon= "fa fa-fw fa-floppy-o")
+{
+  <button type="submit" class="btn btn-primary" id="btn-Submit" name="btn-Submit">
+    @if (!string.IsNullOrEmpty(icon))
+    {
+      <i class="@icon"></i> 
+    }
+    @caption
+  </button>
+}
+@helper Create(string caption = "Create New")
+{
+  @NavigateUrl(caption, "Create", "", "glyphicon glyphicon-plus-sign", "primary")
+}
+@helper Cancel(string caption = "Cancel")
+{
+  @NavigateUrl(caption, "Index", "", "fa fa-fw fa-arrow-circle-left", "default")
+  @*<script>
+  $(function () {
+    $('#btn-Index').click(function () {
+      parent.history.back();
+      return false;
+    });
+  });
+  </script>*@
+}
+@helper NavigateUrl(string caption = "Cancel", string action = "Index", string controller="", string icon = "", string style = "default")
+{
+  var urlHelper = new UrlHelper(Request.RequestContext);
+
+  if (string.IsNullOrEmpty(@controller)) {
+    <a href="@urlHelper.Action(@action)" class="btn btn-@style" id="btn-@action" name="btn-@action">
+      <span class="@icon" aria-hidden="true"></span>
+      @caption
+    </a>
+  }
+  else {
+    <a href="@urlHelper.Action(@action, @controller)" class="btn btn-@style" id="btn-@action" name="btn-@action">
+      <span class="@icon" aria-hidden="true"></span>
+      @caption
+    </a>  
+  }
+}

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<IdentityManager.Web.Models.Country>
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ContinentId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Iso2Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Iso3Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsoNumeric)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrencyId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LanguageCodes)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContinentId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Iso2Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Iso3Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsoNumeric)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrencyId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LanguageCodes)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNet.Identity
+@using iTemplate.Web.Models
+@if (Request.IsAuthenticated) {
+  ApplicationDbContext db = new ApplicationDbContext();
+  ApplicationUser currentUser = db.Users.Find(User.Identity.GetUserId());
+  using (Html.BeginForm("LogOff", "Account", new { area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" })) {
+    @Html.AntiForgeryToken()
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="@currentUser.FullName">
+        <i class="glyphicon glyphicon-user"></i> @currentUser.FirstName <b class="caret"></b> &nbsp; &nbsp; &nbsp;</a>
+        <ul class="dropdown-menu">
+          <li><a href="~/Profile/Edit"><i class="glyphicon glyphicon-leaf"></i> Profile</a></li>
+          <li><a href="~/Manage/Index"><i class="glyphicon glyphicon-edit"></i> Manage</a></li>
+          <li class="divider"></li>
+          <li><a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-fw fa-power-off"></i> Log Out</a></li>
+        </ul>
+      </li>
+    </ul>
+  }
+}
+else {
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="~/Account/Login" id = "loginLink"><i class="fa fa-fw fa-sign-in"></i> Log In &nbsp;</a></li>
+  </ul>
+}

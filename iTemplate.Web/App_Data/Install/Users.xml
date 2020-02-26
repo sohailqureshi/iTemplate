@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <Site.Users>
+		<Email>admin@iTemplate.com</Email>
+		<FirstName>Administrator</FirstName>
+    <LastName></LastName>
+    <RoleName>Administrator</RoleName>
+    <Password>M00ddm@@</Password>
+	</Site.Users>
+
+  <Site.Users>
+    <Email>Tenant@iTemplate.Com</Email>
+    <FirstName>Tenant</FirstName>
+    <LastName></LastName>
+    <RoleName>Tenant</RoleName>
+    <Password>M00ddm@@</Password>
+  </Site.Users>
+
+  <Site.Users>
+    <Email>Landlord@iTemplate.Com</Email>
+    <FirstName>Landlord</FirstName>
+    <LastName></LastName>
+    <RoleName>Landlord</RoleName>
+    <Password>M00ddm@@</Password>
+  </Site.Users>  
+  
+  <Site.Users>
+    <Email>Agent@iTemplate.Com</Email>
+    <FirstName>Agent</FirstName>
+    <LastName></LastName>
+    <RoleName>Agent</RoleName>
+    <Password>M00ddm@@</Password>
+  </Site.Users>
+
+  <Site.Users>
+    <Email>ServiceProvider@iTemplate.Com</Email>
+    <FirstName>Service</FirstName>
+    <LastName>Provider</LastName>
+    <RoleName>ServiceProvider</RoleName>
+    <Password>M00ddm@@</Password>
+  </Site.Users>
+
+
+  
+</settings>

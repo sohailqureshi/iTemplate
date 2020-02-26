@@ -1,0 +1,70 @@
+﻿@using System.Web.Mvc;
+@using System.Web.Mvc.Html;
+@using System.Linq.Expressions;
+@functions
+{
+  public static HelperResult CalendarFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr)
+  {
+    return TextboxDate(html.LabelFor(expr, new { @class = "text-info" }), html.TextBoxFor(expr, "{0:dd-MM-yyyy}", new { @class = "form-control" }), html.ValidationMessageFor(expr));
+  }
+  public static HelperResult DropdownFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr, IEnumerable<System.Web.Mvc.SelectListItem> sl, string icon)
+  {
+    return Dropdown(html.LabelFor(expr, new { @class = "text-info" }), html.DropDownListFor(expr, sl, new { @class = "form-control" }), html.ValidationMessageFor(expr), icon);
+  }
+  public static HelperResult TextboxFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr)
+  {
+    return Textbox(html.LabelFor(expr, new { @class = "text-info" }), html.TextBoxFor(expr, new { @class = "form-control" }), html.ValidationMessageFor(expr));
+  }
+  public static HelperResult TextboxFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr, string icon)
+  {
+    return TextboxIcon(html.LabelFor(expr, new { @class = "text-info" }), html.TextBoxFor(expr, new { @class = "form-control" }), html.ValidationMessageFor(expr), icon);
+  }
+  public static HelperResult PasswordFor<TModel, TItem>(HtmlHelper<TModel> html, Expression<Func<TModel, TItem>> expr)
+  {
+    return PasswordIcon(html.LabelFor(expr, new { @class = "text-info" }), html.PasswordFor(expr, new { @class = "form-control" }), html.ValidationMessageFor(expr));
+  }
+}
+@helper Dropdown(MvcHtmlString label, MvcHtmlString dropdownlist, MvcHtmlString validationMessage, string icon)
+{
+  @label<br />
+  <div class='input-group'>
+    <span class='input-group-addon'><i class='glyphicon glyphicon-@icon'></i></span>
+    @dropdownlist
+  </div>
+  @validationMessage
+}
+@helper Textbox(MvcHtmlString label, MvcHtmlString textbox, MvcHtmlString validationMessage)
+{
+  @label<br />
+  @textbox
+  @validationMessage<br />
+}
+@helper TextboxIcon(MvcHtmlString label, MvcHtmlString textbox, MvcHtmlString validationMessage, string icon)
+{
+  @label
+  <div class='input-group'>
+    <span class='input-group-addon'><i class='glyphicon glyphicon-@icon'></i></span>
+    @textbox
+    @validationMessage<br />
+  </div>
+}
+@helper PasswordIcon(MvcHtmlString label, MvcHtmlString textbox, MvcHtmlString validationMessage)
+{
+  @label
+  <div class='input-group'>
+    <span class='input-group-addon'><i class='glyphicon glyphicon-eye-open'></i></span>
+    @textbox
+    @validationMessage<br />
+  </div>
+}
+@helper TextboxDate(MvcHtmlString label, MvcHtmlString textbox, MvcHtmlString validationMessage)
+{
+  @label
+  <div class='input-group'>
+    <span class='input-group-addon'><i class='glyphicon glyphicon-certificate'></i></span>
+    @textbox
+    <span class="input-group-addon"><i class="fa fa-fw fa-calendar"></i></span>
+    @validationMessage<br />
+  </div>
+}
+

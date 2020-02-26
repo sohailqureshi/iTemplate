@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Personal</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Office</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Other</Text>
+    <Description></Description>
+  </defaults>
+
+</settings>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Studio Room - Budget</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room - Deluxe</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room - Deluxe with Balcony</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room - Deluxe with Sea View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room - Economy </Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room -Large</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room - Disability Access</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room with Balcony</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room with Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room with Garden View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room with Park View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room with Shared Bathroom</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room with Pool View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room with Private External Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+    <defaults>
+    <Text>Studio Room with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room - Superior</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room - Superior with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Studio Room - Superior with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Studio Room - Superior with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

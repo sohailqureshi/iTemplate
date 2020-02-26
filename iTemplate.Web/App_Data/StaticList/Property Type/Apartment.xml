@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Studio</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+
+  <defaults>
+    <Text>Flat</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+
+  <defaults>
+    <Text>Duplex</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+
+  <defaults>
+    <Text>Penthouse</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>  
+</settings>

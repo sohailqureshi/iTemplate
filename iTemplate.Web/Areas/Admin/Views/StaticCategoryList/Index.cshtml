@@ -1,0 +1,56 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.StaticCategoryList>
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Category Lists")
+    var categorySelected = (IEnumerable<SelectListItem>)ViewBag.StaticCategory;
+ }
+
+<div class="row">
+  <div class="form-group col-md-3">
+    <div class="input-group">
+      @PageButton.Create()
+    </div>
+  </div>
+
+  <div class="form-group col-md-3 col-md-offset-6">
+    <div class="input-group">
+      <span class='input-group-addon'><i class='fa fa-fw fa-list'></i></span>
+      @Html.DropDownList("ddlCategory", categorySelected, "Please Select", new { @class = "form-control" })
+    </div>
+  </div>
+</div>
+
+<div id="divTarget"></div>
+
+<script>
+  $(function () {
+
+    $("#btn-Create").click(function (event) {
+      event.preventDefault();
+      window.location.href = $(this).attr("href") + "/" + $('#ddlCategory option:selected').val();
+    });
+
+    $("#ddlCategory").change(function (event) {
+      var selectedId = $('#ddlCategory option:selected').val();
+      if (selectedId<1) {
+        $("#btn-Create").attr('disabled', true);
+        $("#tblTarget tbody").remove();
+        return false;
+      }
+
+      $.ajax({
+        type: "Post",
+        url: '@Url.Action("GetCategoryLists")',
+        dataType: "html",
+        data: { id: selectedId },
+        success: function (data) {
+          $("#btn-Create").attr('disabled', false);
+          $('#divTarget').html(data).tableInit();
+        }
+      });
+    });
+
+    $("#ddlCategory").trigger("change");
+
+  });
+</script>

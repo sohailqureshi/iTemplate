@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Water Park</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Tennis Court(s)</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

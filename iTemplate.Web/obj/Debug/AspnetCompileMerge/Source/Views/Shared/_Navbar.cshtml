@@ -1,0 +1,52 @@
+﻿@using IdentityManager.Web.Data;
+@using IdentityManager.Web.Models;
+
+ <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    @Html.ActionLink(Site.SiteName, "Index", "Home", null, new { @class = "navbar-brand" })
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="~/Home/Index"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+      <li><a href="~/Home/About"><i class="glyphicon glyphicon-info-sign"></i> About</a></li>
+      <li><a href="~/Home/Contact"><i class="glyphicon glyphicon-envelope"></i> Contact</a></li>
+
+      @if (User.IsAdministrator())
+      {
+        <li><a href="~/Admin/Dashboard/Index"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <i class="glyphicon glyphicon-cog"></i> Admin <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+
+            <li><a href="~/Admin/Roles/Index"><i class="glyphicon glyphicon-bullhorn"></i> Roles</a></li>
+            <li><a href="~/Admin/Users/Index"><i class="glyphicon glyphicon-user"></i> Users</a></li>
+            <li><a href="~/Admin/Theme/Index"><i class="glyphicon glyphicon-globe"></i> Themes</a></li>
+            <li><a href="~/Admin/Organisations/Index"><i class="fa fa-fw fa-signal"></i> Organisations</a></li>
+           
+            <li class="divider"></li>
+            <li><a href="~/Admin/Currencies/Index"><i class="glyphicon glyphicon-euro"></i> Currencies</a></li>
+            <li><a href="~/Admin/Cities/Index"><i class="glyphicon glyphicon-credit-card"></i> Cities</a></li>
+            <li><a href="~/Admin/Districts/Index"><i class="glyphicon glyphicon-map-marker"></i> Districts</a></li>
+            <li><a href="~/Admin/Countries/Index"><i class="glyphicon glyphicon-globe"></i> Countries</a></li>
+            <li><a href="~/Admin/Continents/Index"><i class="glyphicon glyphicon-cloud"></i> Continents</a></li>
+
+            <li class="divider"></li>
+            <li><a href="~/Admin/SiteSetting/SiteEdit"><i class="glyphicon glyphicon-cog"></i> Site Settings</a></li>
+            <li><a href="~/Admin/SiteSetting/FileUpload"><i class="glyphicon glyphicon-upload"></i> Upload File</a></li>
+            <li><a href="~/Admin/SiteSetting/FileImport"><i class="glyphicon glyphicon-import"></i> Import File</a></li>
+          </ul>
+        </li>
+        <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+      }    
+    </ul>
+    @Html.Partial("_LoginPartial")
+  </div>
+</div>
+
+

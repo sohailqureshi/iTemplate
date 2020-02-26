@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  
+	<defaults>
+		<Text>£/Per person per stay</Text>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Text>% of Total</Text>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Text>£/Per person per night</Text>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Text>£/Per stay</Text>
+		<Description></Description>
+	</defaults>
+
+	<defaults>
+		<Text>£/Per night</Text>
+		<Description></Description>
+	</defaults>
+
+</settings>

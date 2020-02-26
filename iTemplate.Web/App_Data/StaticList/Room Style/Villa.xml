@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Villa - Budget</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa - Deluxe</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa - Deluxe with Balcony</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa - Deluxe with Sea View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa - Economy </Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa -Large</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa - Disability Access</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa with Balcony</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa with Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa with Garden View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa with Park View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa with Shared Bathroom</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa with Pool View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa with Private External Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+    <defaults>
+    <Text>Villa with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa - Superior</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa - Superior with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Villa - Superior with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Villa - Superior with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

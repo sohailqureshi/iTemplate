@@ -1,0 +1,23 @@
+﻿@model iTemplate.Web.Models.Data.ContactType
+@using (Html.BeginForm())
+{
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      @Html.AntiForgeryToken()
+      @Html.ValidationSummary(true)
+      @Html.HiddenFor(model => model.ParentId)
+
+      @PageEditor.TextBoxFor(Html, model => model.Name)
+      @PageEditor.TextBoxFor(Html, model => model.Description)
+      @PageEditor.TextBoxFor(Html, model => model.SortOrder)
+      @PageEditor.CheckBoxFor(Html, model => model.IsPublished)
+
+      <div class="panel-footer">
+        @PageButton.Submit()
+        @PageButton.Cancel()
+      </div>
+
+    </div>
+  </div>
+}
+

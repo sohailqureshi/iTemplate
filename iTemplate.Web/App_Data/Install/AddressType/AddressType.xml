@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Head Office</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Delivery</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Shipping</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Invoicing</Text>
+    <Description></Description>
+  </defaults>
+    
+</settings>

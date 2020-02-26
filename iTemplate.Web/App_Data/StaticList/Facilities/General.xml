@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Concierge</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Wheel Chair Access</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Gym</Text>
+    <Description></Description>
+  </defaults>
+ 
+  <defaults>
+    <Text>Lift</Text>
+    <Description></Description>
+  </defaults> 
+
+  <defaults>
+    <Text>Swimming Pool</Text>
+    <Description></Description>
+  </defaults> 
+
+  <defaults>
+    <Text>Tennis Court(s)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Restaurant(s)</Text>
+    <Description></Description>
+  </defaults>
+
+</settings>

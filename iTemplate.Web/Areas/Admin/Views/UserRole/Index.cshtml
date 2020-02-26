@@ -1,0 +1,51 @@
+﻿@model IEnumerable<iTemplate.Web.Models.ApplicationRole>
+@using Microsoft.AspNet.Identity.EntityFramework;
+@using Microsoft.AspNet.Identity
+@using iTemplate.Web.Models
+@{
+  ApplicationDbContext db = new ApplicationDbContext();
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("User Roles");
+}
+<p>@PageButton.Create()</p>
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.Name)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Description)
+      </th>
+      <th class="text-center">
+        <span><i class="fa fa-fw fa-users"></i></span>
+      </th>
+      <th class="text-center">
+        @Html.DisplayNameFor(model => model.IsSystem)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model)
+  {
+    <tr>
+      <td>
+        @Html.ActionLink(item.Name, "Edit", new { id = item.Id })
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Description)
+      </td>
+      <td class="text-center">
+        @{
+          var myRole = db.Roles.First(r => r.Name == item.Name);
+          Int32 count = db.Set<IdentityUserRole>().Count(r => r.RoleId == myRole.Id);
+          <span>@count</span>
+        }
+      </td>
+      <td class="text-center">
+        @Html.DisplayFor(modelItem => item.IsSystem)
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

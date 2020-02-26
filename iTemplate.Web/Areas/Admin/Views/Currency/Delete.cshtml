@@ -1,0 +1,57 @@
+﻿@model iTemplate.Web.Models.Currency
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Currency</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsoCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsoCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsoNumeric)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsoNumeric)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinorEntity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinorEntity)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

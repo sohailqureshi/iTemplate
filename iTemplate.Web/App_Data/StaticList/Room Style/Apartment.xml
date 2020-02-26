@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Apartment - Budget</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment - Deluxe</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment - Deluxe with Balcony</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment - Deluxe with Sea View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment - Economy </Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment -Large</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment - Disability Access</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment with Balcony</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment with Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment with Garden View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment with Park View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment with Shared Bathroom</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment with Pool View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment with Private External Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+    <defaults>
+    <Text>Apartment with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment - Superior</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment - Superior with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Apartment - Superior with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Apartment - Superior with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

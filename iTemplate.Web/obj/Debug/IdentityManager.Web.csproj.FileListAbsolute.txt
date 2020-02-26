@@ -1,0 +1,548 @@
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll.config
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\WebGrease.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Library.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Library.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Helpers.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V6 (Ionic +)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\csc.exe
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll.config
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.pdb
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Helpers.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\WebGrease.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.pdb
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V6 (Region)\IdentityManager.V6 (Region)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.pdb
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\csc.exe
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll.config
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.pdb
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Helpers.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebGrease.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.pdb
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.xml
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.dll
+\\Mac\Home\Documents\My Web Sites\THDC\Website\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.pdb
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\csc.exe
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll.config
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.pdb
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Helpers.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Owin.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebGrease.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.pdb
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.xml
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.dll
+\\Mac\Home\Documents\My Web Sites\IdentityManager.V8\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll.config
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Helpers.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\WebGrease.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V9 (Categories)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll.config
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\IdentityManager.Web.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Helpers.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\WebGrease.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\RestSharp.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Net.Http.Formatting.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.WebHost.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Twilio.Api.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.Data.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\WebMatrix.WebData.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\bin\System.Web.Http.Owin.xml
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.dll
+C:\inetpub\wwwroot\IdentityManager\IdentityManager.V11 (Extended Identity)\IdentityManager.Web\IdentityManager.Web\obj\Debug\IdentityManager.Web.pdb

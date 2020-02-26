@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+		<Key>Site.UserRoles</Key>
+		<Text>Administrator</Text>
+		<Description></Description>
+	</defaults>
+  
+  <defaults>
+    <Key>Site.UserRoles</Key>
+    <Text>User</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

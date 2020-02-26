@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+</head>
+<body>
+    <div>
+        <p>Dear @Model.Name,</p>       
+        <p>Thank you for registering with @Model.Organisation.</p>
+        <p>Your account has been created but needs to be activated to confirm your email address.</p>
+        <p>Please click <a href="@Model.Path?id=@Model.Token">here</a> to complete your registration</p> 
+        <br />
+        <br />
+        <p>kind Regards,</p>
+        <p>Administrator</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿@using iTemplate.Web.Data.Site;
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@ViewBag.Title - @Configuration.SiteName</title>
+  <link id="siteTheme" href="@Url.Content(Configuration.ThemeUrl)" rel="stylesheet" type="text/css" />
+  <link href="~/Scripts/datepicker/css/datepicker.css" rel="stylesheet" />
+  @Styles.Render("~/Content/css")
+  @Scripts.Render("~/bundles/modernizr")
+  @Scripts.Render("~/bundles/jquery")
+  @Scripts.Render("~/bundles/bootstrap")
+  <script src="~/Scripts/datepicker/js/bootstrap-datepicker.js"></script>
+  <script src="~/Scripts/jquery.signalR-2.2.0.js"></script>
+  <script src="~/SignalR/hubs"></script>
+  <script src="~/Scripts/custom/hub.js"></script>
+  <script src="~/Scripts/custom/styling.js"></script>
+</head>
+<body>
+    @Html.Partial("_NavBar")
+  <div class="container body-content">
+    @RenderBody()
+    <footer>
+      <p>&copy; @DateTime.Now.Year - @Configuration.SiteName</p>
+    </footer>
+  </div>
+
+  @RenderSection("scripts", required: false)
+</body>
+</html>

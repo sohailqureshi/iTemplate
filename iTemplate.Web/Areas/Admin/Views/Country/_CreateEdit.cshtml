@@ -1,0 +1,27 @@
+﻿@model iTemplate.Web.Models.Data.Country
+@using iTemplate.Web.Models.Data
+@using (Html.BeginForm())
+{
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+
+      @Html.AntiForgeryToken()
+      @Html.ValidationSummary(true)
+      @Html.HiddenFor(model => model.Id)
+
+      @PageEditor.DropdownFor(Html, model => model.ContinentId, Continent.DropDown(), "cloud")
+      @PageEditor.TextBoxFor(Html, model => model.Name)
+      @PageEditor.TextBoxFor(Html, model => model.Iso2Code, "fa-fire")
+      @PageEditor.TextBoxFor(Html, model => model.Iso3Code, "fa-puzzle-piece")
+      @PageEditor.TextBoxFor(Html, model => model.IsoNumeric, "fa-sitemap")
+      @PageEditor.DropdownFor(Html, model => model.CurrencyId, Currency.DropDown(), "euro")
+      @PageEditor.TextBoxFor(Html, model => model.LanguageCodes, "fa-headphones")
+
+      <div class="panel-footer">
+        @PageButton.Submit()
+        @PageButton.Cancel()
+      </div>
+
+    </div>
+  </div>
+}

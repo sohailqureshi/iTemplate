@@ -1,0 +1,59 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.SiteNavigation>
+@using iTemplate.Web.Data.Site;
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Site Navigation")
+}
+
+<p>@PageButton.Create("Upload New")</p>
+<table>
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.Text)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Description)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.AreaName)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.ControllerName)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.ActionName)
+      </th>
+      <th class="text-center">
+        @Html.DisplayNameFor(model => model.IsDivider)
+      </th>
+     </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model)
+  {
+    var padding = new HtmlString((item.ParentId != null) ? "<i class='fa fa-long-arrow-right' aria-hidden='true'></i> " : "");
+
+    <tr>
+      <td>
+        @padding @Html.ActionLink((item.IsDivider) ? "-----------------------" : item.Text, "Edit", new { id = item.Id })
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Description)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.AreaName)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.ControllerName)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.ActionName)
+      </td>
+      <td class="text-center">
+        @Html.DisplayFor(modelItem => item.IsDivider)
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

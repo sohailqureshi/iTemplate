@@ -1,0 +1,120 @@
+﻿@model iTemplate.Web.ViewModels.UserProfileModel
+@using iTemplate.Web.Models
+@{
+  @PageTitle.Heading("Profile", "Edit")
+}
+@using (Html.BeginForm("Edit", "Profile", FormMethod.Post, new {@id="formEditor", @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+{
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary("", new { @class = "text-danger" })
+
+  <div class="row" style="margin-bottom:5px;">
+    <div class="col-md-6 col-md-offset-1">
+
+      @PageEditor.HiddenFor(Html, model => model.UserId)
+      @PageEditor.HiddenFor(Html, model => model.ProfilePhoto.ContentType)
+      @PageEditor.HiddenFor(Html, model => model.ProfilePhoto.FileLength)
+      @PageEditor.HiddenFor(Html, model => model.ProfilePhoto.Photo)
+
+      <div class="col-md-8">
+        @PageEditor.TextBoxFor(Html, model => model.FirstName, "tag")
+      </div>
+
+      <div class="col-md-8">
+        @PageEditor.TextBoxFor(Html, model => model.LastName, "tags")
+      </div >
+
+      <div class="col-md-6">
+        @PageEditor.CalendarFor(Html, model => model.DateOfBirth)
+      </div>
+
+    </div>
+
+    <div class="col-md-4">
+      <div style="width:240px; padding:10px; float:right; background-color:white;">
+        <div id="imageContainer" style="border:1px solid black;">
+          <a href="#" title="Click to change image">
+            @if (Model.ProfilePhoto.FileLength>0)
+            {
+              <img id="imgProfile" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.ProfilePhoto.Photo)" style="height:200px; margin-left:auto; margin-right:auto;" />
+            }
+            else
+            {
+              <img id="imgProfile" src="~/Images/noimage.png" style="width:100%; " />
+            }
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="panel-footer">
+        @PageButton.Submit("Save")
+        @PageButton.NavigateUrl("Contact Details", "Index", "ContactDetail", "glyphicon glyphicon-home")
+      </div>
+    </div>
+  </div>
+
+@Html.Partial("_modalFileUpload")
+}
+<script>
+  $(function () {
+
+    $.ajaxSetup({
+      'beforeSend': function (xhr) {
+        securityToken = $('[name=__RequestVerificationToken]').val();
+        xhr.setRequestHeader('__RequestVerificationToken', securityToken);
+      }
+    });
+
+    $('#DateOfBirth').datepicker();
+
+    $("#imgProfile").click(function () {
+      $("#fileTitle").val("Profile");
+      $("#modalFileUpload").modal({ backdrop: 'static', keyboard: false })
+        .one('click', '#btnFileSave', function () {
+        });
+    });
+
+    //What happens if the File changes?
+    $('#fileUpload').change(function (event) {
+      var ext = this.value.match(/\.(.+)$/)[1];
+      switch (ext) {
+        case 'jpg':
+        case 'bmp':
+        case 'png':
+        case 'tif':
+          break;
+        default:
+          alert("The selected file does not appear to be an image.");
+          this.value = '';
+      }
+
+      var f = event.target.files[0];
+      var reader = new FileReader();
+      reader.onload = function (e) { $("#imgProfile").attr('src', e.target.result); };
+      reader.readAsDataURL(f);
+    });
+
+    $('#btnSubmit').click(function (event) {
+      event.preventDefault();
+      var fd = new FormData($("#formEditor")[0]);
+      var files = $('#fileUpload').get(0).files;
+      if (files.length > 0) { fd.append("fileUpload", files[0]); }
+      $.ajax({
+        type: "post",
+        url: "Edit",
+        data: fd,
+        processData: false,
+        contentType: false,
+        dataType: "json"
+      })
+      //$.post("Edit", $("#formEditor").serialize());
+      //$("#formEditor").submit();
+    });
+
+  });
+</script>

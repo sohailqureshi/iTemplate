@@ -1,0 +1,63 @@
+﻿@model IdentityManager.Web.Models.EditUserViewModel
+@using IdentityManager.Library.Extensions
+@using IdentityManager.Web.Data;
+@using Microsoft.AspNet.Identity.EntityFramework;
+@using IdentityManager.Web.Models;
+@using Microsoft.AspNet.Identity;
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "Users";
+  ViewBag.Message = " (Edit)";
+  ApplicationUserManager userManager = new ApplicationUserManager(new UserStore<ApplicationUser>(new ApplicationDbContext()));
+  var user = userManager.FindById(Model.Id);
+  var rolesForUser = userManager.GetRoles(user.Id);
+}
+
+<hgroup>
+  <page-title>@ViewBag.Title</page-title>
+  <page-subtitle>@ViewBag.Message</page-subtitle>
+</hgroup>
+
+@using (Html.BeginForm()) {
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary(true)
+  @Html.HiddenFor(model => model.Id)
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      @Html.InputText(model => model.Email, "envelope")
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-2">
+      <div class="form-group">
+        <label class='text-info'>Select User Role</label>
+        <div class='input-group'>
+          @foreach (var item in Model.RolesList)
+          {
+            string checkboxSelected = (rolesForUser.Contains(item.Value)) ? "checked='checked'" : "";
+            <div class="col-md-10">
+              <input type="checkbox" name="SelectedRoles" value="@item.Value" @checkboxSelected class="checkbox-inline" />
+              @Html.Label(item.Value, new { @class = "control-label" })
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-offset-2 col-md-10">
+      <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+      </div>
+    </div>
+  </div>
+}
+
+
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}

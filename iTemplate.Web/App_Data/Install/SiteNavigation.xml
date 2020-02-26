@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	<defaults>
+		<Text>Home</Text>
+    <Description></Description>
+    <Icon>glyphicon glyphicon-home</Icon>
+    <AreaName></AreaName>
+    <ControllerName>Home</ControllerName>
+    <ActionName>Index</ActionName>
+    <Roles>
+      <RoleName></RoleName>
+    </Roles>
+	</defaults>
+
+  <defaults>
+    <Text>About Us</Text>
+    <Description></Description>
+    <Icon>fa fa-fw fa-info-circle</Icon>
+    <AreaName></AreaName>
+    <ControllerName>Home</ControllerName>
+    <ActionName>About</ActionName>
+    <Roles>
+      <RoleName></RoleName>
+    </Roles>
+  </defaults>
+  
+  <defaults>
+		<Text>Contact Us</Text>
+    <Description></Description>
+    <Icon>fa fa-fw fa-phone</Icon>
+    <AreaName></AreaName>
+    <ControllerName>Home</ControllerName>
+    <ActionName>Contact</ActionName>
+    <Roles>
+      <RoleName></RoleName>
+    </Roles>	
+  </defaults>
+
+  <defaults>
+		<Text>Dashboard</Text>
+    <Description></Description>
+    <Icon>fa fa-fw fa-dashboard</Icon>
+    <AreaName>Admin</AreaName>
+    <ControllerName>Dashboard</ControllerName>
+    <ActionName>Index</ActionName>
+    <Roles>
+      <RoleName>Administrator</RoleName>
+    </Roles>
+
+  </defaults>
+
+  <defaults>
+		<Text>Administrator</Text>
+    <Description></Description>
+    <Icon>glyphicon glyphicon-cog</Icon>
+    <AreaName></AreaName>
+    <ControllerName></ControllerName>
+    <ActionName>#</ActionName>
+    <Roles>
+      <RoleName>Administrator</RoleName>
+    </Roles>
+    
+    <SubMenu>
+      <Text>Contact Types</Text>
+      <Description></Description>
+      <Icon>fa fa-fw fa-home</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>ContactType</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+
+    <SubMenu>
+      <Text>Contact Type Lists</Text>
+      <Description></Description>
+      <Icon>fa fa-fw fa-phone</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>ContactTypeList</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Category</Text>
+      <Description></Description>
+      <Icon>fa fa-fw fa-list</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>StaticCategory</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Category Lists</Text>
+      <Description></Description>
+      <Icon>fa fa-fw fa-list-ul</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>StaticCategoryList</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Category List Items</Text>
+      <Description></Description>
+      <Icon>fa fa-fw fa-list-ol</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>StaticCategoryListItem</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+  
+    <SubMenu>
+      <Text>Currency</Text>
+      <Description></Description>
+      <Icon>glyphicon glyphicon-euro</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>Currency</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>      
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Country</Text>
+      <Description></Description>
+      <Icon>glyphicon glyphicon-globe</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>Country</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Continent</Text>
+      <Description></Description>
+      <Icon>glyphicon glyphicon-cloud</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>Continent</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>      
+    </SubMenu>
+
+    <SubMenu>
+      <IsDivider></IsDivider>
+      <AreaName>Admin</AreaName>
+      <ControllerName>Users</ControllerName>
+      <ActionName>#</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Themes</Text>
+      <Description></Description>
+      <Icon>glyphicon glyphicon-globe</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>SiteTheme</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+
+    <SubMenu>
+      <Text>Navigation Editor</Text>
+      <Description></Description>
+      <Icon>fa fa-fw fa-paw</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>SiteNavigation</ControllerName>
+      <ActionName>Index</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Site Settings</Text>
+      <Description></Description>
+      <Icon>fa fa-fw fa-cogs</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>SiteSetting</ControllerName>
+      <ActionName>SiteEdit</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+
+    <SubMenu>
+      <IsDivider></IsDivider>
+      <AreaName>Admin</AreaName>
+      <ControllerName>Users</ControllerName>
+      <ActionName>#</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Upload File</Text>
+      <Description></Description>
+      <Icon>glyphicon glyphicon-upload</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>SiteSetting</ControllerName>
+      <ActionName>FileUpload</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+    
+    <SubMenu>
+      <Text>Import File</Text>
+      <Description></Description>
+      <Icon>glyphicon glyphicon-import</Icon>
+      <AreaName>Admin</AreaName>
+      <ControllerName>SiteSetting</ControllerName>
+      <ActionName>FileImport</ActionName>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+    </SubMenu>
+  </defaults>
+
+  <defaults>
+    <Text>API</Text>
+    <Description></Description>
+    <Icon>fa fa-fw fa-cubes</Icon>
+    <AreaName></AreaName>
+    <ControllerName></ControllerName>
+    <ActionName>Help</ActionName>
+    <Roles>
+      <RoleName>Administrator</RoleName>
+    </Roles>
+  </defaults>
+  
+ <defaults>
+    <Text>Dashboard</Text>
+    <Description></Description>
+    <Icon>fa fa-fw fa-dashboard</Icon>
+    <AreaName></AreaName>
+    <ControllerName></ControllerName>
+    <ActionName>#</ActionName>
+    <InDashboard>true</InDashboard>
+    <Roles>
+      <RoleName>Administrator</RoleName>
+    </Roles>
+
+    <SubMenu>
+      <Text>Security</Text>
+      <Description></Description>
+      <Icon>glyphicon glyphicon-cog</Icon>
+      <AreaName></AreaName>
+      <ControllerName></ControllerName>
+      <ActionName>#</ActionName>
+      <InDashboard>true</InDashboard>
+      <Roles>
+        <RoleName>Administrator</RoleName>
+      </Roles>
+      
+      <SubMenu>
+		    <Text>Users</Text>
+        <Description></Description>
+        <Icon>glyphicon glyphicon-user</Icon>
+        <AreaName>Admin</AreaName>
+        <ControllerName>User</ControllerName>
+        <ActionName>Index</ActionName>
+        <InDashboard>true</InDashboard>
+        <Roles>
+          <RoleName>Administrator</RoleName>
+        </Roles>
+      </SubMenu>
+    
+      <SubMenu>
+		    <Text>Roles</Text>
+        <Description></Description>
+        <Icon>glyphicon glyphicon-bullhorn</Icon>
+        <AreaName>Admin</AreaName>
+        <ControllerName>UserRole</ControllerName>
+        <ActionName>Index</ActionName>
+        <InDashboard>true</InDashboard>        
+        <Roles>
+          <RoleName>Administrator</RoleName>
+        </Roles>
+      </SubMenu>  
+    </SubMenu>
+   </defaults>
+  
+</settings>
+
+

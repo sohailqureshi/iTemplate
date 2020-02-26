@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Double Room - Budget</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room - Deluxe</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room - Deluxe (1 Adult  + 1 Child)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room - Deluxe (1 Adult  + 2 Children)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room - Deluxe (2 Adults  + 1 Child)</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room - Deluxe with Balcony</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room - Deluxe with Sea View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room - Economy </Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room -Large</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room - Disability Access</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room with Balcony</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room with Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room with Garden View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room with Park View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room with Shared Bathroom</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room with Pool View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room with Private External Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+    <defaults>
+    <Text>Double Room with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room - Superior</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room - Superior with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Double Room - Superior with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Double Room - Superior with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

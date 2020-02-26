@@ -1,0 +1,40 @@
+﻿@model IdentityManager.Web.Models.RegisterViewModel
+@{
+	@PageTitle.Heading("Register", "Create a new account")
+}
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary("", new { @class = "text-danger" })
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+			@PageEditor.TextboxFor(Html, model => model.Email, "envelope")
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      @PageEditor.PasswordFor(Html, model => model.Password)
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      @PageEditor.PasswordFor(Html, model => model.ConfirmPassword)
+    </div>
+  </div>
+
+  <div class="row">
+		<div class="col-md-offset-2 col-md-8" style="margin-top:20px; margin-bottom:10px;">
+			<input type="submit" value="Register" class="btn btn-primary" />
+			@Html.ActionLink("Cancel", "Login", null, new { @class = "btn btn-default" })
+		</div>
+  </div>
+
+
+}
+
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,26 @@
+﻿@model iTemplate.Web.Models.ViewModel.ContactDetailViewModel
+@using iTemplate.Web.Models.Data
+@{
+  var contactTypePhones = ContactType.DropDown("Phone");
+  var contactTypeName = ContactType.Get(Model.ContactTypeId).Name;
+}
+<div class="form-group multiple-form-group input-group">
+  <div class="input-group-btn input-group-select">
+    @Html.HiddenFor(model => model.Id, new { @class = "contactDetailId" })
+    @Html.HiddenFor(model => model.IsDeleted, new { @class = "contactTypeIsDeleted" })
+    @Html.HiddenFor(model => model.ContactTypeId, new { @class = "contactTypeId" })
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="width:80px;">
+      <span class="concept">@contactTypeName</span> <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      @foreach (var phone in contactTypePhones)
+    {
+        <li><a href="#@phone.Value">@phone.Text</a></li>
+      }
+    </ul>
+  </div>
+  @Html.TextBoxFor(model => model.ContactText, new { @class = "form-control" })
+  <span class="input-group-btn btn-add-delete">
+    <button type="button" class="btn btn-success btn-add">+</button>
+  </span>
+</div>

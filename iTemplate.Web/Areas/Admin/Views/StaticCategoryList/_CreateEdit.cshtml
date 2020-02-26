@@ -1,0 +1,33 @@
+﻿@model iTemplate.Web.Models.Data.StaticCategoryList
+@using (Html.BeginForm())
+{
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      @Html.AntiForgeryToken()
+      @Html.HiddenFor(model => model.Id)
+      @Html.HiddenFor(model => model.StaticCategoryId)
+
+      @PageEditor.DisabledTexboxFor(Html, model => model.StaticCategoryName, "fa-external-link")
+      @PageEditor.TextBoxFor(Html, model => model.Name)
+      @PageEditor.TextBoxFor(Html, model => model.Description)
+      @PageEditor.TextBoxFor(Html, model => model.SortOrder)
+      @PageEditor.CheckBoxFor(Html, model => model.IsPublished)
+
+      <div class="panel-footer">
+        @PageButton.Submit()
+        @PageButton.Cancel()
+      </div>
+
+    </div>
+  </div>
+}
+<script>
+  $(function () {
+
+    $("#btn-Index").click(function (event) {
+      event.preventDefault();
+      window.location.href = $(this).attr("href") + "/Index/" + $('#StaticCategoryId').val();
+    });
+
+  });
+</script>

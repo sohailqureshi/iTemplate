@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Business Centre</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Meeting Rooms</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

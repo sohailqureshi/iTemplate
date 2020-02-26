@@ -1,0 +1,24 @@
+﻿@model IdentityManager.Web.Models.Address
+@{
+    ViewBag.Title = "Address";
+}
+
+<h3>Address</h3>
+@*@Html.HiddenFor(model => model.AddressId)*@
+
+@PageEditor.TextboxFor(Html, model => model.Line1, "home")
+@PageEditor.TextboxFor(Html, model => model.Line2, "road")
+@PageEditor.TextboxFor(Html, model => model.Line3, "tree-conifer")
+@PageEditor.TextboxFor(Html, model => model.Line4, "tower")
+@PageEditor.TextboxFor(Html, model => model.Line5, "plane")
+@PageEditor.TextboxFor(Html, model => model.PostalCode, "dashboard")
+
+@Html.LabelFor(model => model.CountryId, new { @class = "text-info" })
+<div class='input-group'>
+  <span class='input-group-addon'><i class='glyphicon glyphicon-globe'></i></span>
+  @Html.DropDownListFor(model => model.CountryId, IdentityManager.Web.Models.Country.DropDown(Model.CountryId), new { @class = "form-control" })
+</div>
+
+<h3>Contact</h3>
+@PageEditor.TextboxFor(Html, model => model.Telephone, "phone-alt")
+@PageEditor.TextboxFor(Html, model => model.Email, "envelope")

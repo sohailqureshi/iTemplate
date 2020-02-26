@@ -1,0 +1,101 @@
+﻿@model IdentityManager.Web.Models.UserProfile
+@using IdentityManager.Web.Models
+@{
+  @PageTitle.Heading("Profile", "Edit")
+}
+@using (Html.BeginForm("Edit", "Profile", FormMethod.Post, new {@id="formEditor", @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+{
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary("", new { @class = "text-danger" })
+
+  <div class="row">
+    <div class="col-md-8">
+
+      @Html.HiddenFor(model => model.Id)
+      <div class="col-md-6 col-md-offset-2">
+        @PageEditor.TextboxFor(Html, model => model.FirstName, "tag")
+      </div>
+
+      <div class="col-md-6 col-md-offset-2">
+        @PageEditor.TextboxFor(Html, model => model.LastName, "tags")
+      </div >
+
+      <div class="col-md-6 col-md-offset-2">
+        @Html.LabelFor(m => m.DateOfBirth, new { @class = "text-info" })
+        <div class='input-group'>
+          <span class='input-group-addon'><i class='glyphicon glyphicon-certificate'></i></span>
+          <input id = "DateOfBirth" name="DateOfBirth" value="@string.Format("{0:dd-MM-yyyy}", Model.DateOfBirth)" class="form-control" />
+          <span class="input-group-addon"><span class="fa fa-calendar"></span></span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-4">
+      <div style="width:240px; border:1px solid black; padding:2px;">
+        <div id="imageContainer">
+          <a href="#" title="Click to change image">
+            @if (Model.ProfilePhoto.Photo != null)
+            {
+              <img id="imgProfile" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.ProfilePhoto.Photo)" style="width:100%;" />
+            }
+            else
+            {
+              <img id="imgProfile" src="~/Images/noimage.png" style="width:100%; " />
+            }
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="col-md-6 col-md-offset-2" style="margin-bottom:10px;">
+          <input type="submit" value="Save" class="btn btn-primary" />
+       </div>
+    </div>
+  </div>
+  @Html.Partial("_modalFileUpload")
+}
+
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+  $(function () {
+
+    $('#DateOfBirth').datepicker({
+      format: 'dd-mm-yyyy'
+    })
+
+    $("#imgProfile").click(function () {
+      $("#fileTitle").val("Profile");
+      $("#modalFileUpload").modal({ backdrop: 'static', keyboard: false })
+        .one('click', '#btnFileSave', function () {
+        });
+    });
+
+    //What happens if the File changes?
+    $('#fileUpload').change(function (evt) {
+      var ext = this.value.match(/\.(.+)$/)[1];
+      switch (ext) {
+        case 'jpg':
+        case 'bmp':
+        case 'png':
+        case 'tif':
+          break;
+        default:
+          alert("The selected file does not appear to be an image.");
+          this.value = '';
+      }
+
+      var f = evt.target.files[0];
+      var reader = new FileReader();
+      reader.onload = function (e) { $("#imgProfile").attr('src', e.target.result); };
+      reader.readAsDataURL(f);
+    });
+
+  });
+</script>

@@ -1,0 +1,83 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.StaticCategoryListItem>
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Category Lists")
+  var categorySelected = (IEnumerable<SelectListItem>)ViewBag.StaticCategory;
+  var categoryListSelected = (IEnumerable<SelectListItem>)ViewBag.StaticCategoryList;
+}
+
+<div class="row">
+  <div class="form-group col-md-3">
+    <div class="input-group" data-url="">
+      @PageButton.Create()
+    </div>
+  </div>
+
+  <div class="form-group col-md-3 col-md-offset-3">
+    <div class="input-group">
+      <span class='input-group-addon'><i class='fa fa-fw fa-list'></i></span>
+      @Html.DropDownList("ddlCategory", categorySelected, "Please Select", new { @class = "form-control" })
+    </div>
+  </div>
+
+  <div class="form-group col-md-3">
+    <div class="input-group">
+      <span class='input-group-addon'><i class='fa fa-fw fa-list-ul'></i></span>
+      @Html.DropDownList("ddlCategoryList", categoryListSelected, "Please Select", new { @class = "form-control"})
+    </div>
+  </div>
+</div>
+
+<div id="divTarget"></div>
+
+<script>
+  $(function () {
+
+    $("#btn-Create").click(function (event) {
+      event.preventDefault();
+      window.location.href = $(this).attr("href") + "/" + $('#ddlCategoryList option:selected').val();
+    });
+
+    $("#ddlCategory").change(function (event) {
+      $("#btn-Create").attr('disabled', true);
+      $("#divTarget > table").remove();
+      $("#ddlCategoryList").empty();
+
+      $.ajax({
+        type: "Post",
+        url: '@Url.Action("GetCategoryList")',
+        dataType: 'json',
+        data: { categoryId: $("#ddlCategory").get(0).selectedIndex },
+        success: function (results) {
+          $("#ddlCategoryList").populateList(results);
+        },
+        error: function (ex) {
+          //$("#ddlCategoryList").append("<option value='-1'>Please Select</option>");
+          alert("Data retrival error - please try again!");
+        }
+      });
+    });
+
+    $("#ddlCategoryList").change(function (event) {
+      var selectedId = $('#ddlCategoryList option:selected').val();
+      if (selectedId < 1) {
+        $("#btn-Create").attr('disabled', true);
+        $("#divTarget > table").remove();
+        return;
+      }
+
+      $.ajax({
+        type: "Post",
+        url: '@Url.Action("GetCategoryListItems")',
+        dataType: "html",
+        data: { id: selectedId },
+        success: function (data) {
+          $("#btn-Create").attr('disabled', false);
+          $('#divTarget').html(data).tableInit();
+        }
+      });
+    });
+
+    $("#ddlCategoryList").trigger("change");
+  });
+</script>

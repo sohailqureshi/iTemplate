@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <!-- Following is Mandatory -->
+  <Site.UserRoles>
+    <RoleName>Administrator</RoleName>
+    <Description>Administers site information</Description>
+    <IsSystem>True</IsSystem>
+  </Site.UserRoles>
+  
+  <!-- Following are optional -->
+  <Site.UserRoles>
+    <RoleName>Tenant</RoleName>
+    <Description>Single tenant</Description>
+    <IsSystem>False</IsSystem>
+  </Site.UserRoles>
+
+  <Site.UserRoles>
+    <RoleName>Landlord</RoleName>
+    <Description>Single landlord with multiple properties</Description>
+    <IsSystem>False</IsSystem>
+  </Site.UserRoles>
+
+  <Site.UserRoles>
+    <RoleName>Agent</RoleName>
+    <Description>Organisation with multiple users and managing multiple properties</Description>
+    <IsSystem>False</IsSystem>
+  </Site.UserRoles>
+
+  <Site.UserRoles>
+    <RoleName>ServiceProvider</RoleName>
+    <Description>Service Provider or Tradesman with multiple users providing services to multiple properties</Description>
+    <IsSystem>False</IsSystem>
+  </Site.UserRoles>
+
+</settings>

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+</head>
+<body>
+    <div>
+        <p>Dear @Model.Name,</p><br /> 
+        <br />
+        This email has been sent to you by @Model.Manager from @Model.Organisation
+        <br />
+        <p>@Model.Body</p><br />
+
+        <div>
+            @Model.EventType      
+        </div>
+        <div>
+            @Model.Teams      
+        </div>
+        <div>
+            At @Model.Venue      
+        </div>
+        <div>
+            Start Date/Time: @Model.StartDate       
+        </div>
+        <div>
+            Directions: @Model.Direction       
+        </div>
+        <div>
+            Comment: @Model.Comment     
+        </div>
+        <br />
+        <br />
+        <p>Please click <a href="@Model.Path?invite=@Model.InvitationID&id=@Model.PlayerID&token=@Model.Token&reply=Y">Yes</a> if you <b>WILL</b> be able to attend</p>    
+        <p>or click <a href="@Model.Path?invite=@Model.InvitationID&id=@Model.PlayerID&token=@Model.Token&reply=N">No</a> if you will <b>NOT</b> be able to attend</p> 
+    </div>
+</body>
+</html>

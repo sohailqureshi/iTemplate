@@ -1,0 +1,55 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.ContactType>
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Contact Type Lists")
+  var contactSelected = (IEnumerable<SelectListItem>)ViewBag.contactSelected;
+}
+
+<div class="row">
+  <div class="form-group col-md-3">
+    <div class="input-group">
+      @PageButton.Create()
+    </div>
+  </div>
+
+  <div class="form-group col-md-3 col-md-offset-6">
+    <div class="input-group">
+      <span class='input-group-addon'><i class='fa fa-fw fa-list'></i></span>
+      @Html.DropDownList("ddlContactList", contactSelected, "Please Select", new { @class = "form-control" })
+    </div>
+  </div>
+</div>
+
+<div id="divTarget"></div>
+
+<script>
+  $(function () {
+
+    $("#btn-Create").click(function (event) {
+      event.preventDefault();
+      var selectedCategoryId = $('#ddlContactList option:selected').val();
+      window.location.href = $(this).attr("href") + "?Id=" + selectedCategoryId;
+    });
+
+    $("#ddlContactList").change(function (event) {
+      $("#btn-Create").show();
+      if ($("#ddlContactList").get(0).selectedIndex < 1) {
+        $("#btn-Create").attr('disabled', true);
+        $("#divTarget > table").remove();
+        return;
+      }
+
+      $.ajax({
+        url: '@Url.Action("Index")',
+        dataType: "html",
+        data: { id: $('#ddlContactList option:selected').val() },
+        success: function (data) {
+          $("#btn-Create").attr('disabled', false);
+          $('#divTarget').html(data).tableInit();
+        }
+      });
+    });
+
+    $("#ddlContactList").trigger("change");
+  });
+</script>

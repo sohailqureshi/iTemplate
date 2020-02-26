@@ -1,0 +1,24 @@
+﻿@helper Icon(string glyph)
+{
+  Icon(glyph, "default");
+}
+@helper Icon(string glyph, string style)
+{
+  <div class="circle-badge circle-@style card-img" style="">
+    <div class="circle-icon">
+      <span class="glyphicon glyphicon-@glyph" aria-hidden="true"></span>
+    </div>
+  </div>
+}
+@helper Iconfa(string fa)
+{
+  Iconfa(fa, "default");
+}
+@helper Iconfa(string fa, string style)
+{
+  <div class="circle-badge circle-@style card-img" style="">
+    <div class="circle-icon">
+      <span class="glyphicon glyphicon-@fa" aria-hidden="true"></span>
+    </div>
+  </div>
+}

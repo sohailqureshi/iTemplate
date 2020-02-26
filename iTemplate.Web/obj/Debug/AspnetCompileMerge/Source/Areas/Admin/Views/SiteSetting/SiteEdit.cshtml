@@ -1,0 +1,63 @@
+﻿@model IdentityManager.Web.Models.SiteSetting
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Site Settings", "Edit");
+}
+
+@using (Html.BeginForm())
+{
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary(true)
+
+  @Html.HiddenFor(model => model.Id)
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class='form-group'>
+
+        <div class="col-md-6 col-md-offset-2">
+          @PageEditor.TextboxFor(Html,model => model.Name, "tag")
+          @PageEditor.TextboxFor(Html, model => model.AdministratorRoleName, "cog")
+
+          @Html.LabelFor(model => model.ThemeId, new { @class = "text-info" })
+          @PageEditor.DropdownFor(Html, model => model.ThemeId, IdentityManager.Web.Models.Theme.DropDown(), "tags")
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class='form-group'>
+        <div class="col-md-6 col-md-offset-2">
+          @Html.EditorFor(model => model.Address)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <div class="row">
+    <div class="col-md-8">
+      <div class="col-md-6 col-md-offset-2">
+        <div class="form-group">
+          <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+      </div>
+    </div>
+  </div>
+}
+<script>
+
+  $("#ThemeId").change(function () {
+    var themeId = $('#ThemeId').find(":selected").val();
+    $.get("/api/themes/getUrl", { id: themeId })
+      .done(function (data) {
+        console.log("Data Loaded: ", data);
+        $("#siteTheme").attr({ href: data });
+      });
+  });
+
+</script>

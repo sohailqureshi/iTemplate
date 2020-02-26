@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Twin Room - Budget</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe (1 Adult  + 1 Child)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe (1 Adult  + 2 Children)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe (2 Adults  + 1 Child)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe (2 Adult  + 2 Children)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe (2 Double Beds)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe (2 Queen Beds)</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room - Deluxe with Balcony</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Deluxe with Sea View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room - Economy </Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room -Large</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room - Disability Access</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room with Balcony</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room with Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room with Garden View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room with Park View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room with Shared Bathroom</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room with Pool View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room with Private External Bathroom</Text>
+    <Description></Description>
+  </defaults>
+  
+    <defaults>
+    <Text>Twin Room with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Superior</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room - Superior with Lake View</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Twin Room - Superior with Sea View</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Twin Room - Superior with Mountain View</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

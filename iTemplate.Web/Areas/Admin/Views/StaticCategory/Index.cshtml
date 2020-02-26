@@ -1,0 +1,60 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.StaticCategory>
+@using iTemplate.Web.Models.Data
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Categories")
+}
+
+<p>@PageButton.Create()</p>
+<div id="resultTarget">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+          @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th class="text-center">
+          @Html.DisplayNameFor(model => model.SortOrder)
+        </th>
+        <th class="text-center">
+          @Html.DisplayNameFor(model => model.IsPublished)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+
+      <tr>
+        <td>
+          @Html.ActionLink(item.Name, "Edit", new { id = item.Id })
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td class="text-center">
+          @Html.DisplayFor(modelItem => item.SortOrder)
+        </td>
+        <td class="text-center">
+          @Html.CheckBoxFor(modelItem => item.IsPublished)
+        </td>
+      </tr>
+
+    }
+    </tbody>
+  </table>
+</div>
+<script>
+  $(function () {
+
+    $("#btnCategory").change(function (event) {
+      var selected = $('#btnCategory option:selected').val();
+      console.log("selected", selected);
+      window.location.search='?selected=' + selected;
+    });
+
+  });
+</script>

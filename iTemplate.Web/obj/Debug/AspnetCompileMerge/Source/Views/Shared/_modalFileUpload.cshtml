@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "_ModalFileUpload";
+}
+  <div id="modalFileUpload" class="modal fade in">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:orange;">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title" id="modalTitle" name="modalTitle">Photo/Image Uploader</h3>
+        </div>
+
+        <div class="modal-body">
+          <table style="width:100%;">
+            <tr>
+              <td class="form-group"><label class="text-info">Title</label></td>
+            </tr>
+            <tr>
+              <td style="width:80%;">
+                <input type="text" id="fileTitle" name="fileTitle" class="form-control" />
+              </td>
+            </tr>
+            <tr>
+              <td class="orm-group"><label class="text-info">File</label></td>
+            </tr>
+            <tr>
+              <td class="field" style="width:80%;">
+                <input type="file" id="fileUpload" name="fileUpload" class="form-control" />
+                <div id="response"></div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" id="btnFileSave">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>

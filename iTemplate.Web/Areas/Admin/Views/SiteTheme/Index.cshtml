@@ -1,0 +1,96 @@
+﻿@model IEnumerable<iTemplate.Web.Models.SiteTheme>
+@using iTemplate.Web.Data.Site;
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Themes")
+}
+
+<p>@PageButton.Create("Upload New")</p>
+<table>
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.Name)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Url)
+      </th>
+      <th class="text-center">Selected</th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(item.Name, "Edit", new { id=item.Id })
+        </td>
+        <td data-url="active">
+            @Html.DisplayFor(modelItem => item.Url)
+        </td>
+        <td class="text-center selected">
+          <span>
+            @if (Configuration.ThemeId.Equals(item.Id))
+            {
+              <i class="glyphicon glyphicon-ok" data-element-id="@item.Id"></i>
+            }
+            else
+            {
+              <i class="glyphicon" data-element-id="@item.Id"></i>
+            }
+          </span>
+        </td>
+    </tr>
+  }
+  </tbody>
+</table>
+@using (Html.BeginForm("Create", "Theme", FormMethod.Post, new { enctype = "multipart/form-data", id="frmCreate" }))
+{
+  @Html.AntiForgeryToken()
+  @Html.Partial("_modalFileUpload")
+}
+
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+  $(function () {
+
+    $('.table tr')
+      .on('click', function (event) {
+        if (event) {
+          $("body").css("cursor", "progress");
+          $('.table').find(".glyphicon-thumbs-up").removeClass("glyphicon-thumbs-up");
+          $(this).find(".glyphicon").addClass("glyphicon-thumbs-up");
+
+          var theme = $(this).find("[data-url]").html().replace("~", "");
+          $("#siteTheme").attr("href", theme)
+          $("body").css("cursor", "default");
+        }
+      });
+
+    $("#btnCreate").click(function (event) {
+      event.preventDefault();
+      $("#fileTitle").val("Theme");
+      $("#modalTitle").html("Theme Uploader");
+      $("#modalFileUpload").modal({ backdrop: 'static', keyboard: false })
+        .one('click', '#btnFileSave', function () {
+        });
+    });
+
+    //What happens if the File changes?
+    $('#fileUpload').change(function (evt) {
+      var ext = this.value.match(/\.(.+)$/)[1];
+      switch (ext) {
+        case 'css':
+          break;
+        default:
+          alert("The selected file does not appear to be a stylesheet.");
+          this.value = '';
+          return;
+      }
+      $("#frmCreate").submit();
+    });
+
+  });
+</script>
+

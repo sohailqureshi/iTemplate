@@ -1,0 +1,115 @@
+﻿@model iTemplate.Web.Models.ViewModel.AddressBookViewModel
+@using iTemplate.Web.Models.Data
+@{
+  var addressType = AddressType.DropDown(0);
+  var countries = Country.DropDown(0);
+  var contactTypePhones = ContactType.DropDown("Phone");
+  ViewBag.ContactTypePhoneId = contactTypePhones.FirstOrDefault().Value;
+  ViewBag.ContactTypePhoneName = contactTypePhones.FirstOrDefault().Text;
+}
+@using (Html.BeginForm())
+{
+  <div class="row form-group" style="margin-top:5%;">
+    <div class="col-md-6 col-md-offset-2">
+      @Html.AntiForgeryToken()
+      @Html.ValidationSummary(true)
+      @Html.HiddenFor(model => model.Id)
+
+      @PageEditor.DropdownFor(Html, model => model.AddressTypeId, addressType, "fa-building")
+      @PageEditor.TextBoxFor(Html, model => model.Line1, "home")
+      @PageEditor.TextBoxFor(Html, model => model.Line2, "road")
+      @PageEditor.TextBoxFor(Html, model => model.Line3, "tree-conifer")
+      @PageEditor.TextBoxFor(Html, model => model.Line4, "tower")
+      @PageEditor.TextBoxFor(Html, model => model.Line5, "plane")
+      @PageEditor.TextBoxFor(Html, model => model.PostalCode, "dashboard")
+      @PageEditor.DropdownFor(Html, model => model.CountryId, countries, "globe")
+      @PageEditor.TextBoxFor(Html, model => model.Latitude, "fa-map-marker")
+      @PageEditor.TextBoxFor(Html, model => model.Longitude, "fa-map-marker")
+
+    </div>
+
+    <div class="col-md-4 well">
+      <div class="form-group-contacts" data-phone-id="@ViewBag.ContactTypePhoneId" data-phone-name="@ViewBag.ContactTypePhoneName">
+        <label>Contacts:</label>
+        @Html.EditorFor(model => model.ContactDetails)
+      </div>
+    </div>
+  </div>
+
+  <div class="row form-group" style="margin-bottom:5%;">
+    @PageButton.Submit()
+    @PageButton.Cancel()
+  </div>
+}
+
+
+<script>
+  $(function () {
+
+    var addFormGroup = function (event) {
+
+      event.preventDefault();
+      var $formGroup = $(this).closest('.form-group');
+      var $multipleFormGroup = $formGroup.closest('.multiple-form-group');
+      var $formGroupClone = $formGroup.clone();
+
+      $(this).toggleClass('btn-success btn-add btn-danger btn-remove').html('–');
+
+      var defaultPhoneId = $(".form-group-contacts").data("phoneId");
+      var defaultPhoneName = $(".form-group-contacts").data("phoneName");
+
+      $formGroupClone.find('input').val('');
+      $formGroupClone.find('.concept').text(defaultPhoneName);
+      $formGroupClone.insertAfter($formGroup);
+
+      var $lastFormGroupLast = $multipleFormGroup.find('.form-group:last');
+      if ($multipleFormGroup.data('max') <= countFormGroup($multipleFormGroup)) {
+        $lastFormGroupLast.find('.btn-add').attr('disabled', true);
+      }
+
+      $(".multiple-form-group").resequenceElements();
+      $('.contactDetailId').last().attr('value', 0);
+      $('.contactTypeIsDeleted').last().attr('value', false);
+      $('.contactTypeId').last().attr('value', defaultPhoneId);
+      $('.contactTypeName').last().attr('value', defaultPhoneName);
+    };
+
+    var removeFormGroup = function (event) {
+      event.preventDefault();
+
+      var $formGroup = $(this).closest('.form-group');
+      var $multipleFormGroup = $formGroup.closest('.multiple-form-group');
+
+      var $lastFormGroupLast = $multipleFormGroup.find('.form-group:last');
+      if ($multipleFormGroup.data('max') >= countFormGroup($multipleFormGroup)) {
+        $lastFormGroupLast.find('.btn-add').attr('disabled', false);
+      }
+
+      $multipleFormGroup.find('.contactTypeIsDeleted').val(true);
+      $formGroup.hide();
+      $(".multiple-form-group").resequenceElements();
+    };
+
+    var selectFormGroup = function (event) {
+
+      event.preventDefault();
+      var $selectGroup = $(this).closest('.input-group-select');
+      var param = $(this).attr("href").replace("#","");
+      var concept = $(this).text();
+
+      $selectGroup.find('.concept').text(concept);
+
+      $selectGroup.find('.contactTypeName').val(concept);
+      $selectGroup.find('.contactTypeId').val(param);
+    }
+
+    var countFormGroup = function ($form) {
+      return $form.find('.form-group').length;
+    };
+
+    $(document).find('.btn-add-delete:not(:last)').find('button').toggleClass('btn-success btn-add btn-danger btn-remove').html('–');
+    $(document).on('click', '.btn-add', addFormGroup);
+    $(document).on('click', '.btn-remove', removeFormGroup);
+    $(document).on('click', '.dropdown-menu a', selectFormGroup);
+  });
+</script>

@@ -1,0 +1,21 @@
+﻿@model iTemplate.Web.Models.Data.Continent
+@using (Html.BeginForm())
+{
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+
+      @Html.AntiForgeryToken()
+      @Html.ValidationSummary(true)
+      @Html.HiddenFor(model => model.Id)
+
+      @PageEditor.TextBoxFor(Html, model => model.Name)
+      @PageEditor.TextBoxFor(Html, model => model.IsoCode, "fa-fire")
+
+      <div class="panel-footer">
+        @PageButton.Submit()
+        @PageButton.Cancel()
+      </div>
+
+    </div>
+  </div>
+}

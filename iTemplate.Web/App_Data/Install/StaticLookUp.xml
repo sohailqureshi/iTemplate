@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <ContactPhone>
+    <Key>0</Key>
+		<Text>Home</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+	</ContactPhone>
+
+  <ContactPhone>
+    <Key>0</Key>
+    <Text>Work</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </ContactPhone>
+  
+  <ContactPhone>
+    <Key>0</Key>
+    <Text>Mobile</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </ContactPhone>
+
+  <ContactPhone>
+    <Key>0</Key>
+    <Text>Fax</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </ContactPhone>
+  
+  <ContactPhone>
+    <Key>0</Key>
+    <Text>Other</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </ContactPhone>
+
+  <ContactEmail>
+    <Key>1</Key>
+    <Text>Home</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </ContactEmail>
+
+  <ContactEmail>
+    <Key>1</Key>
+    <Text>Work</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </ContactEmail>
+
+  <ContactEmail>
+    <Key>1</Key>
+    <Text>Other</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </ContactEmail>
+
+  <Gender>
+    <Key>2</Key>
+    <Text>Male</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </Gender>
+
+  <Gender>
+    <Key>2</Key>
+    <Text>Female</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </Gender>
+  
+  <Address>
+    <Key>3</Key>
+    <Text>Correspondence</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </Address>
+  
+  <Address>
+    <Key>3</Key>
+    <Text>Billing</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </Address>
+  
+  <Address>
+    <Key>3</Key>
+    <Text>Delivery</Text>
+    <ValueType></ValueType>
+    <Value></Value>
+    <SortOrder>0</SortOrder>
+  </Address>  
+
+</settings>

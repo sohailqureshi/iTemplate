@@ -1,0 +1,21 @@
+﻿@using iTemplate.Web.Data.Site;
+@using iTemplate.Web.Models;
+
+ <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    @Html.ActionLink(Configuration.SiteName, "Index", "Home", null, new { @class = "navbar-brand", @style = "margin-left:10px;" })
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      @{ Html.RenderAction("MenuNavigation", "Navigation", new { area = "" }); }   
+    </ul>
+    @Html.Partial("_LoginPartial")
+  </div>
+</div>
+
+

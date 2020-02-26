@@ -1,0 +1,114 @@
+﻿@model IEnumerable<IdentityManager.Web.Models.Theme>
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "ThemeIndex";
+}
+
+<h2>Themes</h2><hr />
+<p>
+    @Html.ActionLink("Upload New", "Create", null,  new { @class="btn btn-default", id="btnCreate"})
+</p>
+<table class="table table-bordered table-striped table-condensed table-hover col-md-6">
+    <tr class="success">
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Url)
+        </th>
+        <th class="text-center">Selected</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr data-element-id="@item.Id">
+        <td>
+            @Html.ActionLink(item.Name, "Edit", new { id=item.Id })
+        </td>
+        <td data-url="active">
+            @Html.DisplayFor(modelItem => item.Url)
+        </td>
+        <td class="text-center selected">
+          <span>
+            @if (IdentityManager.Web.Data.Site.ThemeId.Equals(item.Id))
+            {
+              <i class="glyphicon glyphicon-ok"></i>
+            }
+            else
+            {
+              <i class="glyphicon"></i>
+            }
+          </span>
+        </td>
+    </tr>
+}
+</table>
+@using (Html.BeginForm("Create", "Theme", FormMethod.Post, new { enctype = "multipart/form-data", id="frmCreate" }))
+{
+  @Html.AntiForgeryToken()
+  @Html.Partial("_modalFileUpload")
+}
+
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+  $(function () {
+
+    $("#btnCreate").click(function () {
+      event.preventDefault();
+      $("#fileTitle").val("Theme");
+      $("#modalTitle").html("Theme Uploader");
+      $("#modalFileUpload").modal({ backdrop: 'static', keyboard: false })
+        .one('click', '#btnFileSave', function () {
+        });
+    });
+
+    //What happens if the File changes?
+    $('#fileUpload').change(function (evt) {
+      var ext = this.value.match(/\.(.+)$/)[1];
+      switch (ext) {
+        case 'css':
+          break;
+        default:
+          alert("The selected file does not appear to be a stylesheet.");
+          this.value = '';
+          return;
+      }
+      $("#frmCreate").submit();
+
+      //var f = evt.target.files[0];
+      //var reader = new FileReader();
+      //reader.onload = function (e) { $("#imgProfile").attr('src', e.target.result); };
+      //reader.readAsDataURL(f);
+    });
+
+  });
+</script>
+
+<script type="text/javascript">
+  $(function () {
+    //$('tr').on('dblclick', function () {
+    //  $("body").css("cursor", "progress");
+    //  $('.table').find(".glyphicon-thumbs-up").removeClass("glyphicon-thumbs-up");
+    //  $(this).find(".glyphicon").addClass("glyphicon-thumbs-up");
+
+    //  var theme = $(this).find("[data-url]").html().replace("~","");
+    //  $("#siteTheme").attr("href", theme)
+    //  $("body").css("cursor", "default");
+    //});
+
+    //$('.table tr[data-href]').each(function () {
+    //  $(this).css('cursor', 'pointer').hover(
+    //      function () {
+    //        $(this).addClass('active');
+    //      },
+    //      function () {
+    //        $(this).removeClass('active');
+    //      }).click(function () {
+    //        document.location = $(this).attr('data-href');
+    //      }
+    //  );
+    //});
+  });
+</script>

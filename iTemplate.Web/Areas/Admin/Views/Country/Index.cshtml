@@ -1,0 +1,63 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.Country>
+@using iTemplate.Web.Models.Data
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Countries")
+}
+<p>@PageButton.Create()</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.Name)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Iso2Code)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Iso3Code)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.IsoNumeric)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.CurrencyId)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.LanguageCodes)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.ContinentId)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model)
+  {
+    <tr>
+
+      <td>
+        @Html.ActionLink(item.Name, "Edit", new { id = item.Id })
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Iso2Code)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Iso3Code)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.IsoNumeric)
+      </td>
+      <td>
+        @Currency.Get(item.CurrencyId).Name
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.LanguageCodes)
+      </td>
+      <td>
+        @Continent.Get(item.ContinentId).Name
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

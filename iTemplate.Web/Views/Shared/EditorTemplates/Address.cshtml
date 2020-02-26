@@ -1,0 +1,24 @@
+﻿@model iTemplate.Web.Models.Address
+@{
+    ViewBag.Title = "Address";
+}
+
+<h3>Address</h3>
+@*@Html.HiddenFor(model => model.AddressId)*@
+
+@PageEditor.TextBoxFor(Html, model => model.Line1, "home")
+@PageEditor.TextBoxFor(Html, model => model.Line2, "road")
+@PageEditor.TextBoxFor(Html, model => model.Line3, "tree-conifer")
+@PageEditor.TextBoxFor(Html, model => model.Line4, "tower")
+@PageEditor.TextBoxFor(Html, model => model.Line5, "plane")
+@PageEditor.TextBoxFor(Html, model => model.PostalCode, "dashboard")
+
+@Html.LabelFor(model => model.CountryId, new { @class = "text-info" })
+<div class='input-group'>
+  <span class='input-group-addon'><i class='glyphicon glyphicon-globe'></i></span>
+  @Html.DropDownListFor(model => model.CountryId, iTemplate.Web.Models.Data.Country.DropDown(Model.CountryId), new { @class = "form-control" })
+</div>
+
+<h3>Contact</h3>
+@PageEditor.TextBoxFor(Html, model => model.Telephone, "phone-alt")
+@PageEditor.TextBoxFor(Html, model => model.Email, "envelope")

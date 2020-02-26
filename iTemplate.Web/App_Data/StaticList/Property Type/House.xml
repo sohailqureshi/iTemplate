@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>Terraced House</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+
+  <defaults>
+    <Text>Semi-Detached House</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+
+  <defaults>
+    <Text>Detached House</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+  
+    <defaults>
+    <Text>Cottage</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+
+  <defaults>
+    <Text>Chalet</Text>
+    <Description>Furnished and self-catering accommodation available for short- and long-term rental</Description>
+  </defaults>
+  
+</settings>

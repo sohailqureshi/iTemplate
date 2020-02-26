@@ -1,0 +1,65 @@
+﻿@model IdentityManager.Web.Models.RegisterViewModel
+@using IdentityManager.Library.Extensions
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "Users";
+  ViewBag.Message = " (Create a new account)";
+}
+
+<hgroup>
+  <page-title>@ViewBag.Title</page-title>
+  <page-subtitle>@ViewBag.Message</page-subtitle>
+</hgroup>
+@using (Html.BeginForm("Create", "UsersAdmin", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+  @Html.AntiForgeryToken()
+  @Html.ValidationSummary("", new { @class = "text-error" })
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      @Html.InputText(model => model.Email, "envelope")
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      @Html.InputPassword(model => model.Password, "eye-open")
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      @Html.InputPassword(model => model.ConfirmPassword, "eye-open")
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-2">
+      <div class="form-group">
+        <label class='text-info'>Select User Role</label>
+        <div class='input-group'>
+          @foreach (var item in (SelectList)ViewBag.RoleId)
+          {
+            <div class="col-md-6">
+              <input type="checkbox" name="SelectedRoles" value="@item.Value" class="checkbox-inline" />
+              @Html.Label(item.Value, new { @class = "control-label" })
+            </div>
+          }
+        </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-offset-2 col-md-10">
+      <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+      </div>
+    </div>
+  </div>
+}
+
+@section Scripts {
+  @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<iTemplate.Web.Models.Data.Continent>
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  @PageTitle.Heading("Continents")
+}
+
+<p>@PageButton.Create()</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.IsoCode)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Name)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+      <tr>
+        <td>
+          @Html.ActionLink(item.IsoCode, "Edit", new { id = item.Id })
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => item.Name)
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

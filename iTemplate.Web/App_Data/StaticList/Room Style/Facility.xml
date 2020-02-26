@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  
+  <defaults>
+    <Text>Balcony</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Roof Terrace</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Ensuite Toilet</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Mini-bar</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Trouser Press</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>Hot Beverage Facilities</Text>
+    <Description></Description>
+  </defaults>  
+  
+</settings>

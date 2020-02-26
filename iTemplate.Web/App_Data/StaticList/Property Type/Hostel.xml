@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+    <default>
+      <Text>Guest house</Text>
+      <Description>Private home with separate living facilities for host and guest</Description>
+    </default>
+
+    <default>
+      <Text>Motel</Text>
+      <Description>Roadside hotel usually for motorists, with direct access to parking and little to no amenities</Description>
+    </default>
+
+</settings>

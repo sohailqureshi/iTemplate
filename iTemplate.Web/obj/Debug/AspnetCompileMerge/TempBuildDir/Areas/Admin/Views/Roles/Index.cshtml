@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+  ViewBag.Title = "User Roles";
+}
+
+<hgroup>
+  <page-title>@ViewBag.Title</page-title>
+  <page-subtitle>@ViewBag.Message</page-subtitle>
+</hgroup>
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class="btn btn-primary"})
+</p>
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(item.Name, "Edit", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

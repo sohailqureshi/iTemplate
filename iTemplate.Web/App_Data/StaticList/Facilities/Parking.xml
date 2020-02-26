@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <defaults>
+    <Text>On-Site Parking (Paid)</Text>
+    <Description></Description>
+  </defaults>
+
+  <defaults>
+    <Text>On-Site Parking (Free)</Text>
+    <Description></Description>
+  </defaults>
+  
+  <defaults>
+    <Text>Off-Street Parking</Text>
+    <Description></Description>
+  </defaults>
+ 
+  <defaults>
+    <Text>Public Parking</Text>
+    <Description></Description>
+  </defaults>
+  
+</settings>

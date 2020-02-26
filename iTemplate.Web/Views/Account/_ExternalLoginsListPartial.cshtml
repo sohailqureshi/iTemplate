@@ -1,0 +1,22 @@
+﻿@model iTemplate.Web.ViewModels.ExternalLoginListViewModel
+@using Microsoft.Owin.Security
+<link href="~/Content/socialMedia/bootstrap-social.css" rel="stylesheet" />
+@{
+    var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+    if (loginProviders.Count() != 0) {
+        using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl })) 
+        {
+          @Html.AntiForgeryToken()
+          <div id="socialLoginList" style="margin-top:15px;">            
+            @foreach (AuthenticationDescription p in loginProviders)
+            {
+              <div style="margin-bottom:2px;">
+                <button type="submit" class="btn btn-block btn-social btn-@p.AuthenticationType.ToLower()" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account">
+                  <i class="fa fa-@p.Caption.ToLower()"></i> @p.AuthenticationType
+                </button>
+              </div>
+            }     
+          </div>
+        }
+    }
+}

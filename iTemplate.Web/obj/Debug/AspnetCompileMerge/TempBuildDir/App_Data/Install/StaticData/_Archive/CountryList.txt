@@ -1,0 +1,243 @@
+LanguageCode	CountryName	CountryCode	Transliteration	ContinentID		
+en_US	Cambodia	KH	Cambodia	6023099		
+en_US	Gibraltar	GI	Gibraltar	6022967		
+en_US	Kazakhstan	KZ	Kazakhstan	6023099		
+en_US	Poland	PL	Poland	6022967		
+en_US	Romania	RO	Romania	6022967		
+en_US	Niger	NE	Niger	6023185		
+en_US	Nigeria	NG	Nigeria	6023185		
+en_US	Cayman Islands	KY	Cayman Islands	6022969		
+en_US	British Virgin Islands	VG	British Virgin Islands	6022969		
+en_US	Canada	CA	Canada	500001		
+en_US	Afghanistan	AF	Afghanistan	6023182		
+en_US	Denmark	DK	Denmark	6022967		
+en_US	Finland	FI	Finland	6022967		
+en_US	Grenada	GD	Grenada	6022969		
+en_US	Haiti	HT	Haiti	6022969		
+en_US	Iceland	IS	Iceland	6022967		
+en_US	Iran	IR	Iran	6023182		
+en_US	Iraq	IQ	Iraq	6023182		
+en_US	Ireland	IE	Ireland	6022967		
+en_US	Israel	IL	Israel	6023182		
+en_US	Jordan	JO	Jordan	6023182		
+en_US	South Korea	KR	South Korea	6023099		
+en_US	Kuwait	KW	Kuwait	6023182		
+en_US	Philippines	PH	Philippines	6023099		
+en_US	Qatar	QA	Qatar	6023182		
+en_US	Rwanda	RW	Rwanda	6023185		
+en_US	Sao Tome and Principe	ST	Sao Tome and Principe	6023185		
+en_US	Saudi Arabia	SA	Saudi Arabia	6023182		
+en_US	Senegal	SN	Senegal	6023185		
+en_US	Sierra Leone	SL	Sierra Leone	6023185		
+en_US	Federal Republic of Somalia	SO	Federal Republic of Somalia	6023185		
+en_US	St. Lucia	LC	St. Lucia	6022969		
+en_US	St. Vincent and the Grenadines	VC	St. Vincent and the Grenadines	6022969		
+en_US	Swaziland	SZ	Swaziland	6023185		
+en_US	Democratic Republic of the Congo	CD	Democratic Republic of the Congo	6023185		
+en_US	St. Kitts and Nevis	KN	St. Kitts and Nevis	6022969		
+en_US	Norway	NO	Norway	6022967		
+en_US	Palau	PW	Palau	6023180		
+en_US	Sweden	SE	Sweden	6022967		
+en_US	Curacao	CW	Curacao	6022969		
+en_US	Sint Maarten	SX	Sint Maarten	6022969		
+en_US	Moldova	MD	Moldova	6022967		
+en_US	North Korea	KP	North Korea	6023099		
+en_US	Wallis and Futuna	WF	Wallis and Futuna	6023180		
+en_US	Bouvet Island	BV	Bouvet Island	11700		
+en_US	French Southern and Antarctic Territories	TF	French Southern and Antarctic Territories	11700		
+en_US	Heard and McDonald Islands	HM	Heard and McDonald Islands	11700		
+en_US	Kyrgyzstan	KG	Kyrgyzstan	6023099		
+en_US	Mongolia	MN	Mongolia	6023099		
+en_US	Tajikistan	TJ	Tajikistan	6023099		
+en_US	Turkmenistan	TM	Turkmenistan	6023099		
+en_US	Uzbekistan	UZ	Uzbekistan	6023099		
+en_US	Montenegro	ME	Montenegro	6022967		
+en_US	Pitcairn Island	PN	Pitcairn Island	6023180		
+en_US	Svalbard	SJ	Svalbard	6022967		
+en_US	Vatican City	VA	Vatican City	6022967		
+en_US	Christmas Island	CX	Christmas Island	6023180		
+en_US	Cocos Islands	CC	Cocos Islands	6023180		
+en_US	Liechtenstein	LI	Liechtenstein	6022967		
+en_US	Niue	NU	Niue	6023180		
+en_US	Slovenia	SI	Slovenia	6022967		
+en_US	St. Pierre and Miquelon	PM	St. Pierre and Miquelon	500001		
+en_US	St. Helena	SH	St. Helena	6023185		
+en_US	British Indian Ocean Territory	IO	British Indian Ocean Territory	6023185		
+en_US	Falkland Islands	FK	Falkland Islands	6023117		
+en_US	Greenland	GL	Greenland	500001		
+en_US	Armenia	AM	Armenia	6022967		
+en_US	American Samoa	AS	American Samoa	6023180		
+en_US	Belarus	BY	Belarus	6022967		
+en_US	Eritrea	ER	Eritrea	6023185		
+en_US	Georgia	GE	Georgia	6022967		
+en_US	Bosnia and Herzegovina	BA	Bosnia and Herzegovina	6022967		
+en_US	San Marino	SM	San Marino	6022967		
+en_US	Tokelau	TK	Tokelau	6023180		
+en_US	State of Palestine	PS	State of Palestine	6023182		
+en_US	Faroe Islands	FO	Faroe Islands	6022967		
+en_US	Marshall Islands	MH	Marshall Islands	6023180		
+en_US	Bhutan	BT	Bhutan	6023099		
+en_US	Timor Leste	TL	Timor Leste	6023099		
+en_US	Bonaire	 Sint Eustatius and Saba	BQ	Bonaire	 Sint Eustatius and Saba	6022969
+en_US	Switzerland	CH	Switzerland	6022967		
+en_US	Tanzania	TZ	Tanzania	6023185		
+en_US	Thailand	TH	Thailand	6023099		
+en_US	Togo	TG	Togo	6023185		
+en_US	Trinidad and Tobago	TT	Trinidad and Tobago	6022969		
+en_US	Turks and Caicos	TC	Turks and Caicos	6022969		
+en_US	U.S. Virgin Islands	VI	U.S. Virgin Islands	6022969		
+en_US	Bolivia	BO	Bolivia	6023117		
+en_US	Cuba	CU	Cuba	6022969		
+en_US	Dominica	DM	Dominica	6022969		
+en_US	Dominican Republic	DO	Dominican Republic	6022969		
+en_US	Guadeloupe	GP	Guadeloupe	6022969		
+en_US	Jamaica	JM	Jamaica	6022969		
+en_US	Lebanon	LB	Lebanon	6023182		
+en_US	Puerto Rico	PR	Puerto Rico	6022969		
+en_US	Seychelles	SC	Seychelles	6023185		
+en_US	Martinique	MQ	Martinique	6022969		
+en_US	Montserrat	MS	Montserrat	6022969		
+en_US	Central African Republic	CF	Central African Republic	6023185		
+en_US	Chad	TD	Chad	6023185		
+en_US	Chile	CL	Chile	6023117		
+en_US	China	CN	China	6023099		
+en_US	Comoros	KM	Comoros	6023185		
+en_US	Republic of the Congo	CG	Republic of the Congo	6023185		
+en_US	Cook Islands	CK	Cook Islands	6023180		
+en_US	Costa Rica	CR	Costa Rica	6023181		
+en_US	St. Barthelemy	BL	St. Barthelemy	6022969		
+en_US	St. Martin	MF	St. Martin	6022969		
+en_US	Bangladesh	BD	Bangladesh	6023099		
+en_US	Barbados	BB	Barbados	6022969		
+en_US	Belgium	BE	Belgium	6022967		
+en_US	Belize	BZ	Belize	6023181		
+en_US	Benin	BJ	Benin	6023185		
+en_US	Bermuda	BM	Bermuda	6022969		
+en_US	Botswana	BW	Botswana	6023185		
+en_US	Burkina Faso	BF	Burkina Faso	6023185		
+en_US	Burundi	BI	Burundi	6023185		
+en_US	Cameroon	CM	Cameroon	6023185		
+en_US	Cape Verde	CV	Cape Verde	6023185		
+en_US	Albania	AL	Albania	6022967		
+en_US	Algeria	DZ	Algeria	6023185		
+en_US	Andorra	AD	Andorra	6022967		
+en_US	Angola	AO	Angola	6023185		
+en_US	Anguilla	AI	Anguilla	6022969		
+en_US	Antigua and Barbuda	AG	Antigua and Barbuda	6022969		
+en_US	Aruba	AW	Aruba	6022969		
+en_US	Australia	AU	Australia	6023180		
+en_US	Azerbaijan	AZ	Azerbaijan	6022967		
+en_US	Bahamas	BS	Bahamas	6022969		
+en_US	Bahrain	BH	Bahrain	6023182		
+en_US	Cyprus	CY	Cyprus	6022967		
+en_US	Czech Republic	CZ	Czech Republic	6022967		
+en_US	Djibouti	DJ	Djibouti	6023185		
+en_US	Egypt	EG	Egypt	6023185		
+en_US	El Salvador	SV	El Salvador	6023181		
+en_US	Equatorial Guinea	GQ	Equatorial Guinea	6023185		
+en_US	Estonia	EE	Estonia	6022967		
+en_US	Ethiopia	ET	Ethiopia	6023185		
+en_US	Fiji	FJ	Fiji	6023180		
+en_US	France	FR	France	6022967		
+en_US	French Polynesia	PF	French Polynesia	6023180		
+en_US	Gabon	GA	Gabon	6023185		
+en_US	Gambia	GM	Gambia	6023185		
+en_US	Germany	DE	Germany	6022967		
+en_US	Ghana	GH	Ghana	6023185		
+en_US	Greece	GR	Greece	6022967		
+en_US	Guatemala	GT	Guatemala	6023181		
+en_US	Guinea	GN	Guinea	6023185		
+en_US	Guinea-Bissau	GW	Guinea-Bissau	6023185		
+en_US	Honduras	HN	Honduras	6023181		
+en_US	Hong Kong	HK	Hong Kong	6023099		
+en_US	Hungary	HU	Hungary	6022967		
+en_US	Indonesia	ID	Indonesia	6023099		
+en_US	Cote d'Ivoire	CI	Cote d'Ivoire	6023185		
+en_US	Japan	JP	Japan	6023099		
+en_US	Kenya	KE	Kenya	6023185		
+en_US	Laos	LA	Laos	6023099		
+en_US	Latvia	LV	Latvia	6022967		
+en_US	Lesotho	LS	Lesotho	6023185		
+en_US	Liberia	LR	Liberia	6023185		
+en_US	Libya	LY	Libya	6023185		
+en_US	Lithuania	LT	Lithuania	6022967		
+en_US	Luxembourg	LU	Luxembourg	6022967		
+en_US	Macau	MO	Macau	6023099		
+en_US	F.Y.R.O. Macedonia	MK	F.Y.R.O. Macedonia	6022967		
+en_US	Madagascar	MG	Madagascar	6023185		
+en_US	Reunion	RE	Reunion	6023185		
+en_US	Russia	RU	Russia	6022967		
+en_US	Samoa	WS	Samoa	6023180		
+en_US	Singapore	SG	Singapore	6023099		
+en_US	Slovakia	SK	Slovakia	6022967		
+en_US	Solomon Islands	SB	Solomon Islands	6023180		
+en_US	South Africa	ZA	South Africa	6023185		
+en_US	Sri Lanka	LK	Sri Lanka	6023099		
+en_US	Sudan	SD	Sudan	6023185		
+en_US	Vietnam	VN	Vietnam	6023099		
+en_US	Yemen	YE	Yemen	6023182		
+en_US	Serbia	RS	Serbia	6022967		
+en_US	Zambia	ZM	Zambia	6023185		
+en_US	Zimbabwe	ZW	Zimbabwe	6023185		
+en_US	United States of America	US	United States of America	500001		
+en_US	Malawi	MW	Malawi	6023185		
+en_US	Maldives	MV	Maldives	6023099		
+en_US	Mali	ML	Mali	6023185		
+en_US	Malta	MT	Malta	6022967		
+en_US	Northern Mariana Islands	MP	Northern Mariana Islands	6023180		
+en_US	Mauritania	MR	Mauritania	6023185		
+en_US	Mauritius	MU	Mauritius	6023185		
+en_US	Mayotte	YT	Mayotte	6023185		
+en_US	Federated States of Micronesia	FM	Federated States of Micronesia	6023180		
+en_US	Monaco	MC	Monaco	6022967		
+en_US	Morocco	MA	Morocco	6023185		
+en_US	Mozambique	MZ	Mozambique	6023185		
+en_US	Myanmar	MM	Myanmar	6023099		
+en_US	Namibia	NA	Namibia	6023185		
+en_US	Nauru	NR	Nauru	6023180		
+en_US	Nepal	NP	Nepal	6023099		
+en_US	Netherlands	NL	Netherlands	6022967		
+en_US	New Caledonia	NC	New Caledonia	6023180		
+en_US	Papua New Guinea	PG	Papua New Guinea	6023180		
+en_US	New Zealand	NZ	New Zealand	6023180		
+en_US	Nicaragua	NI	Nicaragua	6023181		
+en_US	Norfolk Island	NF	Norfolk Island	6023180		
+en_US	Oman	OM	Oman	6023182		
+en_US	Pakistan	PK	Pakistan	6023182		
+en_US	Paraguay	PY	Paraguay	6023117		
+en_US	Peru	PE	Peru	6023117		
+en_US	Syria	SY	Syria	6023182		
+en_US	Taiwan	TW	Taiwan	6023099		
+en_US	Tonga	TO	Tonga	6023180		
+en_US	Tunisia	TN	Tunisia	6023185		
+en_US	Turkey	TR	Turkey	6022967		
+en_US	Tuvalu	TV	Tuvalu	6023180		
+en_US	Uganda	UG	Uganda	6023185		
+en_US	Ukraine	UA	Ukraine	6022967		
+en_US	United Arab Emirates	AE	United Arab Emirates	6023182		
+en_US	Uruguay	UY	Uruguay	6023117		
+en_US	Colombia	CO	Colombia	6023117		
+en_US	South Sudan	SS	South Sudan	6023185		
+en_US	US Minor Outlying Islands	UM	US Minor Outlying Islands	6023180		
+en_US	Brazil	BR	Brazil	6023117		
+en_US	Brunei	BN	Brunei	6023099		
+en_US	Bulgaria	BG	Bulgaria	6022967		
+en_US	Argentina	AR	Argentina	6023117		
+en_US	Austria	AT	Austria	6022967		
+en_US	Croatia	HR	Croatia	6022967		
+en_US	Ecuador	EC	Ecuador	6023117		
+en_US	French Guiana	GF	French Guiana	6023117		
+en_US	Guam	GU	Guam	6023180		
+en_US	Guyana	GY	Guyana	6023117		
+en_US	India	IN	India	6023099		
+en_US	Italy	IT	Italy	6022967		
+en_US	Kiribati	KI	Kiribati	6023180		
+en_US	Portugal	PT	Portugal	6022967		
+en_US	Spain	ES	Spain	6022967		
+en_US	Suriname	SR	Suriname	6023117		
+en_US	Vanuatu	VU	Vanuatu	6023180		
+en_US	Venezuela	VE	Venezuela	6023117		
+en_US	Malaysia	MY	Malaysia	6023099		
+en_US	Mexico	MX	Mexico	6023181		
+en_US	Panama	PA	Panama	6023181		
+en_US	United Kingdom	GB	United Kingdom	6022967		

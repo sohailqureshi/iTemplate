@@ -1,0 +1,24 @@
+﻿@using System.Web.Mvc;
+@using System.Web.Mvc.Html;
+
+@helper Show(IList<string> alphaFound)
+{
+@*char[] alpha = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+alphaFound = Model.Select(s => s.Name.Substring(0, 1)).Distinct().ToList();
+var firstChar = (Model.Any()) ? Model.FirstOrDefault().Name.Substring(0, 1) : "";
+
+  <div class="well">
+    @foreach (var c in alpha)
+    {
+      if (alphaFound.Contains(Convert.ToString(c)))
+      {
+        var btnSelected = (firstChar.Equals(Convert.ToString(c))) ? "btn-primary" : "btn-default";
+        <a href="PropertyList?alpha=@c" class="btn btn-xs @btnSelected">@c</a>;
+      }
+      else
+      {
+        <input type="button" class="btn btn-xs btn-default disabled" style="opacity:0.2;" value="@c" disabled />
+      }
+    }
+  </div>*@
+}

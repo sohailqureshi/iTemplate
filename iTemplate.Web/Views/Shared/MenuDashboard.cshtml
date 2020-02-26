@@ -1,0 +1,44 @@
+﻿@using iTemplate.Web.Models.Data
+@model IEnumerable<SiteNavigationItem>
+@GetSideBarTitle(Model.FirstOrDefault(), null)
+@GetSideBarSubMenus(Model.FirstOrDefault().Children, Model.FirstOrDefault().Id)
+
+@helper GetSideBarTitle(SiteNavigationItem header, int? ParentId)
+{
+  IHtmlString icon = new HtmlString((string.IsNullOrEmpty(header.Icon)) ? "" : "<i class='" + header.Icon + "'></i>");
+  <li class="active">
+    <a href="#">@Html.Raw(@icon) @header.Text</a>
+  </li>
+}
+
+@helper GetSideBarSubMenus(IEnumerable<SiteNavigationItem> SubMenu, int? ParentId)
+{
+if (SubMenu != null)
+{
+  foreach (var item in SubMenu.Where(p => p.ParentId == ParentId))
+  {
+    IHtmlString icon = new HtmlString((string.IsNullOrEmpty(item.Icon)) ? "" : "<i class='" + item.Icon + "'></i>");
+    if (item.Children.Any())
+    {
+      <li>
+        <a href="#" data-toggle="collapse" data-target="#option_@item.Id">
+          @Html.Raw(@icon) @item.Text<i class="fa fa-fw fa-caret-down"></i>
+        </a>
+        <ul id="option_@item.Id" class="collapse">
+          @GetSideBarSubMenus(item.Children, item.Id)
+        </ul>
+      </li>
+    }
+    else
+    {
+      var link = (item.ActionName == null) ? "#" : item.ActionName;
+      <li class="">
+        <a href="@Url.Action(@link, @item.ControllerName, new { area = @item.AreaName })"> 
+          @Html.Raw(@icon) @item.Text
+        </a>
+      </li>
+
+      }
+    }
+  }
+}

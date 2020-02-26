@@ -1,0 +1,24 @@
+﻿@using IdentityManager.Web.Data
+@using IdentityManager.Web.Models
+@{
+    ViewBag.Title = "Contact";
+}
+<hgroup>
+  <page-title>@ViewBag.Title</page-title>
+  <page-subtitle>@ViewBag.Message</page-subtitle>
+</hgroup>
+<div>
+  <address>
+    <i class="glyphicon glyphicon-home"></i> @Site.Address.Line1<br />
+    <i class="glyphicon glyphicon-road"></i> @Site.Address.Line2<br />
+    <i class="glyphicon glyphicon-tree-conifer"></i> @Site.Address.Line3<br />
+    <i class="glyphicon glyphicon-tower"></i> @Site.Address.Line4<br />
+    <i class="glyphicon glyphicon-plane"></i> @Site.Address.Line5<br />
+    <i class="glyphicon glyphicon-dashboard"></i> @Site.Address.PostalCode<br />
+    <i class="glyphicon glyphicon-globe"></i> @Country.Get(Site.Address.CountryId).Name<br />
+
+    <br />
+    <i class="glyphicon glyphicon-phone-alt"></i><strong> Main:</strong> @Site.Address.Telephone<br />
+    <i class="glyphicon glyphicon-envelope"></i><strong> Support:</strong><a href="mailto:Support@example.com">@Site.Address.Email</a><br />
+  </address>
+</div>
